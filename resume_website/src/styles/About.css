@@ -1,0 +1,38 @@
+#about{
+    width: 100%;
+    height: 80vh;
+    background: var(--top-gradient);
+    background: linear-gradient(0deg, rgba(54,48,125,1) 0%,rgba(108,96,250,1)100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about .about-heading{
+    padding-top: 1rem;
+}
+
+
+#about .about-heading h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 6rem;
+    letter-spacing: 10px;
+}
+
+
+#about .about-timeline{
+    width: 50%;
+
+}
+
+#about .about-line{
+    width: 60%;
+    background: #fff;
+    height: 1px;
+}
+
+#about .about-skills{
+    height: 300px;
+    width: 50%;
+}

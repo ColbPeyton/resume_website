@@ -1,0 +1,7 @@
+.progress-bar{
+    margin-right: 25px;
+    align-self: baseline;
+    background-color: #f4f4f4;
+    height: 200px;
+    width: 50px;
+}

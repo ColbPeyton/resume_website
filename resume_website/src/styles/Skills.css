@@ -1,0 +1,18 @@
+#skills{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#skills .skills-progress{
+    display: flex;
+    justify-content: space-between;
+}
+
+#skills h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 300;
+}
