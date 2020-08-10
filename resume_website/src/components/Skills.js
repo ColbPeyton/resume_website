@@ -5,11 +5,11 @@ import '../styles/Skills.css'
 function Skills(){
     return(
         <div id='skills'>
-            <div> 
+            <div className='skills-title'> 
                 <h1>Skills</h1>
             </div>
-            <div>
-                <h1>{`{`}</h1>
+            <div className='skills-icon'>
+                <h1 >{`{`}</h1>
             </div>
             <div className='skills-progress'>
                 <ProgressBar barDetail={{title: 'HTML/CSS', color: '#03BFF8', height: '9'}} />

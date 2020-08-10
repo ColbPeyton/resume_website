@@ -1,11 +1,18 @@
 import React from 'react';
+import ProjectInfo from './Project_Info';
+import '../styles/Projects.css'
 
-function Proejcts(){
+function Projects(){
     return(
-        <div>
-            Proejcts
+        <div id='projects'>
+            <div>
+                <h1>Projects</h1>
+            </div>
+            <div className='project-container'>
+                
+            </div>
         </div>
     )
 }
 
-export default Proejcts;
+export default Projects;

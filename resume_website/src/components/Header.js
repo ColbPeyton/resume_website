@@ -15,7 +15,7 @@ function Header(){
                         <h1>Hi.</h1>
                         <h1>I'm Colby.</h1>
                     </div>
-                    <div>
+                    <div className='header-info'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Etiam porta, sapien ut ultrices dictum, enim justo iaculis 
                         </p>

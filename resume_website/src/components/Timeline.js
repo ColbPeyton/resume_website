@@ -11,8 +11,10 @@ function Timeline(){
                 {<TimelineInfo 
                     timeline={{
                         icon: school,
-                        title1: 'B.S. I.T. Development, Minor In Computer Science',
+                        title1: 'B.S. I.T. Development',
+                        subtitle1: 'Minor In Computer Science',
                         title2: 'B.A. Political Science',
+                        subtitle2: 'Minor In History',
                         text1: 'The University of Southern Mississippi',
                         text2: 'The University of Southern Mississippi',
                         date1:'2017-2020',
@@ -27,7 +29,7 @@ function Timeline(){
                         title1: 'Application Manager',
                         title2: 'Best Buy',
                         text1: 'The University of Southern Mississippi',
-                        text2: 'The University of Southern Mississippi',
+                        text2: 'Hattiesburg, Mississippi',
                         date1:'2017-2020',
                         date2: '2011-2016'
                     }}

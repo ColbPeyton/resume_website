@@ -1,7 +1,24 @@
+.progress-bar-container{
+    padding-right: 50px;
+    width: 100px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .progress-bar{
-    margin-right: 25px;
-    align-self: baseline;
-    background-color: #f4f4f4;
-    height: 200px;
-    width: 50px;
+    transform: rotate(180deg);
+    background-color: #bbbbc0;
+    height: 75%;
+    width: 100%;
+}
+
+.progress-bar-container p{
+    align-self: center;
+    padding-top: 20px;
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
 }

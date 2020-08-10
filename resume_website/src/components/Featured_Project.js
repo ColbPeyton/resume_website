@@ -1,11 +1,12 @@
 import React from 'react';
+import '../styles/Featured_Project.css';
 
-function FeaturedProejct(){
+function FeaturedProject(){
     return(
-        <div>
-            Featured_Proejct
+        <div id='featured-project'>
+            FeaturedProject
         </div>
     )
 }
 
-export default FeaturedProejct;
+export default FeaturedProject;
