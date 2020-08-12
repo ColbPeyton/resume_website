@@ -1,7 +1,7 @@
 import React from 'react';
 import TimelineInfo from './TimeLine_Info';
-import school from '../icons/school.svg';
-import work from '../icons/work.svg';
+import school from '../assets/icons/school.svg';
+import work from '../assets/icons/work.svg';
 import '../styles/Timeline.css';
 
 function Timeline(){

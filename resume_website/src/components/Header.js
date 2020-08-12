@@ -1,6 +1,6 @@
 import React from 'react';
-import placeholder from '../images/placeholder.jpg'
-import downArrow from '../icons/keyboard_arrow_right-24px.svg';
+import placeholder from '../assets/images/placeholder.jpg'
+import downArrow from '../assets/icons/keyboard_arrow_right-24px.svg';
 import '../styles/Header.css';
 
 function Header(){
@@ -8,7 +8,7 @@ function Header(){
         <header id='header'>
             <div className='header-container'>
                 <div className='header-image'>
-                    <img src={placeholder}/>
+                    <img src={placeholder} alt='This is what the back of my head sorta looks like'/>
                 </div>
                 <div className='header-content'>
                     <div>

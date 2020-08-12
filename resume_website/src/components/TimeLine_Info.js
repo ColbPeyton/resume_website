@@ -5,7 +5,7 @@ function TimelineInfo(props){
     return(
         <div className='timeline-info'>
             <div className='info-icon'>
-                <img src={props.timeline.icon}/>
+                <img src={props.timeline.icon} alt={props.timeline.icon}/>
             </div>
             <div className='info-list'>
                 <ul>

@@ -6,18 +6,17 @@ function ProjectInfo(props){
 
     const [overlay, setOverlay] = useState(false);
 
-
     function renderOverlay(){
          return overlay 
         ?  <div className='project-overlay'>
-                <p>{props.project.name}</p>
+                <p>{props.project.title}</p>
             </div>
         : '';
     }
     return(
         <div className='project-info' 
             style={{  
-                backgroundImage: "url(" + props.project.image + ")",
+                backgroundImage: "url(" +  props.project.image + ")",
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'
