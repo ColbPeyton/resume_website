@@ -16,14 +16,92 @@
 }
 
 .project-info .project-overlay:hover{
-    background-color: #3f3f48c9;
+    background-color: #3f3f48e0;
 }
 
 .project-info .project-overlay p{
-    padding-left: 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-weight: 100;
     /* background-color: var(--primary-indigo); */
+}
+
+.hidden{
+    display: none !important;
+}
+
+
+
+@media screen and (max-width:1200px){
+ 
+}
+@media screen and (min-width:1025px) and (max-width:1199px){
+
+}
+
+@media screen and (min-width:751px) and (max-width:1024px){
+
+    .project-info .project-overlay p{
+        font-size: 1.25rem;
+    }
+
+}
+@media screen and (min-width: 551px) and (max-width:750px){
+
+    .project-info .project-overlay p{
+        font-size: 1.45rem;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width:550px){
+ 
+
+    .project-info .project-overlay{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .project-info .project-overlay p{
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+
+    .project-info .project-overlay:hover{
+        background-color: transparent;
+    }
+
+    .project-info .project-overlay{
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start !important;
+        align-items: flex-end !important;
+    }
+
+
+    .project-info .project-overlay p{
+        padding: 2px 10px 0;
+        font-size: 0.85rem;
+        width: 100%;
+        background: #3f3f48e0;
+
+    }
+    
+
+    .hidden{
+        display: block !important;
+        pointer-events:none;
+
+    }
+ 
 }

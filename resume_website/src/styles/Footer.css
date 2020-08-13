@@ -7,3 +7,107 @@
     justify-content: center;
     align-items: center;
 }
+
+#footer .footer-container{
+    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .footer-container .footer-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer .footer-img{
+    grid-area: 'f-img';
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .footer-img img{
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+}
+
+#footer .footer-tagline{
+    flex: 1;
+    grid-area: 'f-tag';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .footer-tagline h3{
+    text-align: center;
+    line-height: 1.2;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+#footer .footer-container .footer-top .footer-info{
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+#footer .footer-container .footer-top .footer-info p{
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+
+
+#footer .footer-container .footer-bot{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#footer .footer-container .footer-bot .footer-logo,
+#footer .footer-container .footer-bot .footer-links{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#footer .footer-container .footer-bot .footer-logo h3{
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#footer .footer-container .footer-bot .footer-links{
+    width: 66%;
+    justify-content: space-around;
+}
+
+#footer .footer-container .footer-bot .footer-links a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: #fff;
+}
+
+#footer .footer-container .footer-bot .footer-links a:visited{
+    color: #fff;
+}

@@ -5,7 +5,8 @@
   --secondary-pink: #FA60EE;
   --secondary-purple-pink: #DC60FA;
   --secondary-purple: #BF60FA;
-  --primary-font: 'Nunito', sans-serif;
+  --primary-font:'Quicksand', sans-serif;
+
   --top-gradient: #6c60fa;
   --bootom-gradiant: #36307d;
   --header-background: #3f3f48;
@@ -22,4 +23,7 @@ html,
 body{
   font-family: var(--primary-font);
   color: #fff;
+  max-width: 100%;
+  overflow-x: hidden;
+
 }

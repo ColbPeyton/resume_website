@@ -11,7 +11,9 @@ function ProjectInfo(props){
         ?  <div className='project-overlay'>
                 <p>{props.project.title}</p>
             </div>
-        : '';
+        : <div className='project-overlay hidden'>
+                <p>{props.project.title}</p>
+            </div>;
     }
     return(
         <div className='project-info' 
