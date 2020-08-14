@@ -5,6 +5,7 @@ import '../styles/About.css';
 function About(){
     return(
         <div id='about'>
+            <div className='about-container'>
             <div className='about-heading'>
                 <h1>About</h1>
             </div>
@@ -15,7 +16,7 @@ function About(){
             <div className='about-skills'>
                 <Skills />            
             </div>
-            
+            </div>
         </div>
     )
 }

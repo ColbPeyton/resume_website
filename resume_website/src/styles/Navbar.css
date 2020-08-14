@@ -1,5 +1,5 @@
 #nav{
-    width: 70px;
+    width: 60px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -74,7 +74,28 @@
 
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:650px){
+    #nav{
+        width: 25px;
+        height: 200px;
+    }
+
+    .sticky{
+        top: 40px;
+    }
+    
+    #nav a{
+        padding-top: 3px;
+    }
+    
+    #nav img{
+        height: 30px;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:649px){
     #nav{
        display: none;
     }
