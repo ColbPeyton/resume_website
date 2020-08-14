@@ -7,7 +7,7 @@ import '../styles/Timeline.css';
 function Timeline(){
     return(
         <div id='timeline'>
-            <div>
+            <div className='timeline-education'>
                 {<TimelineInfo 
                     timeline={{
                         icon: school,

@@ -40,3 +40,354 @@
     height: 40%;
     width: 80%;
 }
+
+
+@media screen and (max-width:1200px){
+ 
+}
+@media screen and (min-width:1025px) and (max-width:1199px){
+
+    #about{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #about .about-heading{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    
+    #about .about-heading h1{
+        font-weight: 100;
+        font-size: 4.5rem;
+        letter-spacing: 8px;
+    }
+    
+    
+    #about .about-timeline{
+        height: 30%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #about .about-line{
+        width: 80%;
+        background: #fff;
+        height: 1px;
+        margin: 2rem 0 4rem;
+    }
+    
+    #about .about-skills{
+        margin: 0 auto;
+        height: 50%;
+        width: 90%;
+    }
+
+    /* Need to finish styling larger resolutions */
+}
+
+@media screen and (min-width:751px) and (max-width:1024px){
+
+    #about{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #about .about-heading{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    
+    #about .about-heading h1{
+        font-weight: 100;
+        font-size: 4.5rem;
+        letter-spacing: 8px;
+    }
+    
+    
+    #about .about-timeline{
+        height: 30%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #about .about-line{
+        width: 80%;
+        background: #fff;
+        height: 1px;
+        margin: 2rem 0 4rem;
+    }
+    
+    #about .about-skills{
+        margin: 0 auto;
+        height: 50%;
+        width: 100%;
+    }
+
+    
+    
+
+}
+@media screen and (min-width: 551px) and (max-width:750px){
+
+    #about{
+        width: 100%;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #about .about-heading{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 2rem;
+    }
+    
+    
+    #about .about-heading h1{
+        font-weight: 100;
+        font-size: 4rem;
+        letter-spacing: 8px;
+    }
+    
+    
+    #about .about-timeline{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #about .about-line{
+        width: 80%;
+        background: #fff;
+        height: 1px;
+        margin: 2rem 0 2.5rem;
+    }
+    
+    #about .about-skills{
+        margin: 0 auto;
+        height: 50%;
+        width: 100%;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 481px) and (max-width:550px){
+
+    #about{
+        width: 100%;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    #about .about-heading{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 2rem;
+
+    }
+    
+    
+    #about .about-heading h1{
+        font-weight: 100;
+        font-size: 3.5rem;
+        letter-spacing: 8px;
+    }
+    
+    
+    #about .about-timeline{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #about .about-line{
+        width: 80%;
+        background: #fff;
+        height: 1px;
+        margin: 2rem 0 2.5rem;
+    }
+    
+    #about .about-skills{
+        margin: 0 auto;
+        height: 50%;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:480px){
+
+    #about{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #about .about-heading{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    
+    #about .about-heading h1{
+        font-weight: 100;
+        font-size: 3rem;
+        letter-spacing: 8px;
+    }
+    
+    
+    #about .about-timeline{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #about .about-line{
+        width: 80%;
+        background: #fff;
+        height: 1px;
+        margin: 2rem 0 2.5rem;
+    }
+    
+    #about .about-skills{
+        margin: 0 auto;
+        height: 50%;
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (max-width:360px){
+    #about{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #about .about-heading{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    
+    #about .about-heading h1{
+        font-weight: 100;
+        font-size: 3rem;
+        letter-spacing: 8px;
+    }
+    
+    
+    #about .about-timeline{
+        height: 45%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #about .about-line{
+        width: 80%;
+        background: #fff;
+        height: 1px;
+        margin: 2rem 0 3rem;
+    }
+    
+    #about .about-skills{
+        margin: 0 auto;
+        height: 35%;
+        width: 80%;
+    }
+
+
+
+
+}
+
+
+/* 
+@media screen and (max-width:1200px){
+ 
+}
+@media screen and (min-width:1025px) and (max-width:1199px){
+
+}
+
+@media screen and (min-width:751px) and (max-width:1024px){
+
+}
+@media screen and (min-width: 551px) and (max-width:750px){
+
+}
+
+@media screen and (min-width: 481px) and (max-width:550px){
+
+}
+
+@media screen and (max-width:480px){
+
+}
+
+@media screen and (max-width:360px){
+
+} */

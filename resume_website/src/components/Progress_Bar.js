@@ -14,7 +14,9 @@ function ProgressBar(props){
 
                 </div>
             </div>
+            <div className='progress-title'>
                 <p>{props.barDetail.title}</p>
+            </div>
         </div>
 
     )

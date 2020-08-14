@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    text-align: left;
 }
 
 .timeline-info .info-icon{
@@ -27,13 +27,218 @@
 }
 
 .timeline-info .info-list ul {
-    height: 90%;
+    list-style-type: none;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
+.timeline-info li{
+    margin-bottom: 1rem;
+}
+
+
 .timeline-info .info-list p{
     font-size: 1rem;
     font-weight: 100;
+}
+
+@media screen and (max-width:1200px){
+ 
+}
+@media screen and (min-width:1025px) and (max-width:1199px){
+
+    .timeline-info{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .timeline-info li{
+        margin-bottom: 2rem;
+    }
+    
+    .timeline-info .info-icon{
+        width: 75px;
+        height: 75px;
+        margin-bottom: 1rem;
+    }
+    
+    .timeline-info .info-list{
+        height: 80%;
+        width: 100%;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+    }
+    
+    
+    .timeline-info .info-list p{
+        font-size: 0.90rem;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:1024px){
+
+    .timeline-info{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .timeline-info li{
+        margin-bottom: 2rem;
+    }
+    
+    .timeline-info .info-icon{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .timeline-info .info-list{
+        height: 80%;
+        width: 100%;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+    }
+    
+    
+    .timeline-info .info-list p{
+        font-size: 0.90rem;
+        font-weight: 100;
+    }
+}
+@media screen and (min-width: 551px) and (max-width:750px){
+    .timeline-info{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .timeline-info .info-icon{
+        width: 65px;
+        height: 65px;
+    }
+    
+    .timeline-info .info-list{
+        height: 80%;
+        width: 100%;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+    
+    
+    .timeline-info .info-list p{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:550px){
+    .timeline-info{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .timeline-info .info-icon{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .timeline-info .info-list{
+        height: 80%;
+        width: 100%;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+    
+    
+    .timeline-info .info-list p{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width:480px){
+    .timeline-info{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .timeline-info .info-icon{
+        width: 55px;
+        height: 55px;
+    }
+    
+    .timeline-info .info-list{
+        height: 80%;
+        width: 100%;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+    }
+    
+    .timeline-info li{
+        margin-bottom: 0;
+    }
+    
+    .timeline-info .info-list p{
+        font-size: 0.75rem;
+        font-weight: 100;
+    }
+}
+
+@media screen and (max-width:360px){
+
+    .timeline-info{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .timeline-info .info-icon{
+        width: 55px;
+        height: 55px;
+    }
+    
+    .timeline-info .info-list{
+        height: 80%;
+        width: 100%;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+    }
+    
+    .timeline-info li{
+        margin-bottom: 0;
+    }
+    
+    .timeline-info .info-list p{
+        font-size: 0.75rem;
+        font-weight: 100;
+    }
 }
