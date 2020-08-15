@@ -14,12 +14,21 @@ const projectDetails = [
                     ]
     },
     {
-        title: 'Perfect Fetch',
-        cardImage: images[6],
+        title: 'Odin\'s',
+        cardImage: images[8],
         imageGallery: [
-            images[7],
-            images[8],
-            images[9]
+            images[5],
+            images[6],
+            images[7]
+                    ]
+    },
+    {
+        title: 'Perfect Fetch',
+        cardImage: images[10],
+        imageGallery: [
+            images[11],
+            images[12],
+            images[13]
                     ]
     }
 ];

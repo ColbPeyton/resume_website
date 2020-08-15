@@ -1,5 +1,5 @@
 import React from 'react';
-import placeholder from '../assets/images/placeholder.jpg'
+import profile from '../assets/images/placeholder_profile.png';
 import '../styles/Footer.css';
 
 function Footer(){
@@ -8,7 +8,7 @@ function Footer(){
             <div className='footer-container'>
                 <div className='footer-top'>
                     <div className='footer-img'>
-                        <img src={placeholder} alt='me' />
+                        <img src={profile} alt='me' />
                     </div>
                     <div className='footer-tagline'>
                         <h3>Let's Work Together.</h3>

@@ -1,8 +1,9 @@
 
 
 #project-display{
+    margin: 0 auto;
     height: 100%;
-    width: 100%;
+    width: 80%;
 }
 .display-container{
     display: flex;
@@ -26,6 +27,7 @@
 
 
 .display-controls{
+    border-top: 3px solid #333;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -53,4 +55,27 @@
 
 .left-arrow{
     transform: rotate(180deg);
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1199px){
+
+}
+
+@media screen and (min-width:750px) and (max-width:1024px){
+
+    #project-display{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 551px) and (max-width:749px){
+    #project-display{
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:550px){
+    #project-display{
+        width: 65%;
+    }
 }

@@ -60,73 +60,32 @@
 @media screen and (min-width:1025px) and (max-width:1199px){
 
     #about{
-        width: 100%;
         height: 120vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
     
     #about .about-heading{
-        width: 100%;
-        height: 15%;
-        display: flex;
-        justify-content: center;
         align-items: flex-end;
         padding-top: 0rem;
-
-    }
-    
-    
-    #about .about-heading h1{
-        font-weight: 100;
-        font-size: 4.5rem;
-        letter-spacing: 8px;
+        padding-bottom: 1rem;
     }
     
     
     #about .about-timeline{
         height: 30%;
         width: 90%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
     
-    #about .about-line{
-        width: 80%;
-        background: #fff;
-        height: 1px;
-        margin: 2rem 0 4rem;
-    }
-    
-    #about .about-skills{
-        margin: 0 auto;
-        height: 30%;
-        width: 90%;
-    }
-
     /* Need to finish styling larger resolutions */
 }
 
 @media screen and (min-width:751px) and (max-width:1024px){
 
     #about{
-        width: 100%;
         height: 150vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
     
     #about .about-heading{
-        width: 100%;
         height: 10%;
-        display: flex;
-        justify-content: center;
         align-items: flex-end;
         padding-top: 0rem;
 
@@ -134,30 +93,17 @@
     
     
     #about .about-heading h1{
-        font-weight: 100;
         font-size: 4.5rem;
-        letter-spacing: 8px;
     }
     
     
     #about .about-timeline{
         height: 30%;
         width: 90%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
     
-    #about .about-line{
-        width: 80%;
-        background: #fff;
-        height: 1px;
-        margin: 2rem 0 4rem;
-    }
     
     #about .about-skills{
-        margin: 0 auto;
         height: 50%;
         width: 100%;
     }
@@ -169,51 +115,33 @@
 @media screen and (min-width: 551px) and (max-width:750px){
 
     #about{
-        width: 100%;
         height: 170vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
     
     #about .about-heading{
-        width: 100%;
         height: 10%;
-        display: flex;
-        justify-content: center;
         align-items: flex-end;
-        margin-top: 2rem;
         padding-top: 0rem;
 
     }
     
     
     #about .about-heading h1{
-        font-weight: 100;
         font-size: 4rem;
-        letter-spacing: 8px;
     }
     
     
     #about .about-timeline{
         height: 50%;
         width: 100%;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     
     #about .about-line{
-        width: 80%;
-        background: #fff;
-        height: 1px;
         margin: 2rem 0 2.5rem;
     }
     
     #about .about-skills{
-        margin: 0 auto;
         height: 50%;
         width: 100%;
     }
@@ -225,53 +153,33 @@
 @media screen and (min-width: 481px) and (max-width:550px){
 
     #about{
-        width: 100%;
         height: 170vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         
     }
     
     #about .about-heading{
-        width: 100%;
         height: 10%;
-        display: flex;
-        justify-content: center;
         align-items: flex-end;
-        margin-top: 2rem;
+        margin-top: 1rem;
         padding-top: 0rem;
-
-
     }
     
-    
     #about .about-heading h1{
-        font-weight: 100;
-        font-size: 3.5rem;
-        letter-spacing: 8px;
+        font-size: 4rem;
     }
     
     
     #about .about-timeline{
         height: 50%;
         width: 100%;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     
     #about .about-line{
-        width: 80%;
-        background: #fff;
-        height: 1px;
         margin: 2rem 0 2.5rem;
     }
     
     #about .about-skills{
-        margin: 0 auto;
         height: 50%;
         width: 100%;
     }
@@ -282,19 +190,12 @@
 @media screen and (max-width:480px){
 
     #about{
-        width: 100%;
         height: 150vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
+
     
     #about .about-heading{
-        width: 100%;
         height: 10%;
-        display: flex;
-        justify-content: center;
         align-items: flex-end;
         padding-top: 0rem;
 
@@ -302,30 +203,21 @@
     
     
     #about .about-heading h1{
-        font-weight: 100;
         font-size: 3rem;
-        letter-spacing: 8px;
     }
     
     
     #about .about-timeline{
         height: 50%;
         width: 100%;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     
     #about .about-line{
-        width: 80%;
-        background: #fff;
-        height: 1px;
         margin: 2rem 0 2.5rem;
     }
     
     #about .about-skills{
-        margin: 0 auto;
         height: 50%;
         width: 100%;
     }
@@ -336,29 +228,24 @@
 
 @media screen and (max-width:360px){
     #about{
-        width: 100%;
         height: 150vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    }
+
+    #about .about-container{
         justify-content: space-around;
     }
     
     #about .about-heading{
-        width: 100%;
         height: 10%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
         padding-top: 1rem;
-
     }
     
     
     #about .about-heading h1{
-        font-weight: 100;
         font-size: 3rem;
-        letter-spacing: 8px;
     }
     
     
@@ -371,14 +258,10 @@
     }
     
     #about .about-line{
-        width: 80%;
-        background: #fff;
-        height: 1px;
         margin: 2rem 0 3rem;
     }
     
     #about .about-skills{
-        margin: 0 auto;
         height: 40%;
         width: 80%;
     }
