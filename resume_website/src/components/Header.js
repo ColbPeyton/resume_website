@@ -1,6 +1,7 @@
 import React from 'react';
-import placeholder from '../assets/images/placeholder.jpg'
+import headerImg from '../assets/images/header_img.jpg'
 import downArrow from '../assets/icons/keyboard_arrow_right-24px.svg';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import '../styles/Header.css';
 
 function Header(){
@@ -8,7 +9,7 @@ function Header(){
         <header id='header'>
             <div className='header-container'>
                 <div className='header-image'>
-                    <img src={placeholder} alt='This is what the back of my head sorta looks like'/>
+                    <img src={headerImg} alt='Working on a project'/>
                 </div>
                 <div className='header-content'>
                     <div>
@@ -21,7 +22,7 @@ function Header(){
                         </p>
                     </div>
                     <div>
-                        <img src={downArrow} alt='down arrow'/>
+                        <AnchorLink href='#about'><img src={downArrow} alt='down arrow'/></AnchorLink>
                     </div>
                 </div>              
             </div>

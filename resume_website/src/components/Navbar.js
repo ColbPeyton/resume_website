@@ -3,23 +3,25 @@ import emailIcon from '../assets/icons/email.svg';
 import contactIcon from '../assets/icons/contact.svg';
 import sliderIcon from '../assets/icons/tune-24px.svg';
 import gitIcon from '../assets/icons/git.svg';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 import '../styles/Navbar.css';
 
 function Navbar(){
     return(
         <nav id='nav' className='sticky'>
-           <a href='#header'>
+           <AnchorLink href='#header'>
            <img src={contactIcon} alt='contact icon'/>          
-            </a>
-           <a href='#about'>
+            </AnchorLink>
+           <AnchorLink href='#about'>
                 <img src={sliderIcon} alt='skills icon'/>
-           </a>
-           <a href='#projects'>
+           </AnchorLink>
+           <AnchorLink href='#projects'>
                <img src={gitIcon} alt='git icon'/>
-           </a>
-           <a href='#footer'>
+           </AnchorLink>
+           <AnchorLink href='#footer'>
             <img src={emailIcon} alt='email icon'/>
-           </a>
+           </AnchorLink>
 
         </nav>
     )

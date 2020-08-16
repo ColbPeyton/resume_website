@@ -7,28 +7,28 @@ function importAll(r) {
 const projectDetails = [
     {
         title: 'LineTracker',
-        cardImage: images[2],
+        cardImage: images[3],
         imageGallery: [
-            images[4],
-            images[3]
+            images[5],
+            images[4]
                     ]
     },
     {
         title: 'Odin\'s',
-        cardImage: images[8],
+        cardImage: images[9],
         imageGallery: [
-            images[5],
             images[6],
-            images[7]
+            images[7],
+            images[8]
                     ]
     },
     {
         title: 'Perfect Fetch',
-        cardImage: images[10],
+        cardImage: images[11],
         imageGallery: [
-            images[11],
             images[12],
-            images[13]
+            images[13],
+            images[14]
                     ]
     }
 ];

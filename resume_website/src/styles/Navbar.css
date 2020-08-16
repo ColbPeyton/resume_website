@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: space-around;
     background: var(--primary-light-blue);
-    border: 2px solid #fff;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     border-right:none ;

@@ -53,7 +53,7 @@
 }
 
 .header-content div:nth-child(2){
-    font-weight: 300;
+    font-weight: 100;
     letter-spacing: 2px;
 }
 
@@ -185,29 +185,29 @@
     }
     
     .header-content div{
-        width: 90%;
+        width: 100%;
         margin: 0 auto 1rem;
     }
     
     .header-content div h1{
         font-weight: 800;
-        font-size: 3rem;
+        font-size: 3.50rem;
         text-transform: uppercase;
         letter-spacing: 5px;
         line-height: 1.1;
     }
     .header-content div h1:last-child{
-        font-size: 2.25rem;
+        font-size: 2.75rem;
     }
     
     .header-content .header-info{
-        font-size: 0.1rem;
         text-align: left;
-        margin: 1rem;
-        width: 70%;
-
+        margin: 1rem 0;
+        width: 80%;
     }
-
+    .header-content .header-info p{
+        font-size: 0.9rem;
+    }
 
     
     .header-content img{
@@ -217,101 +217,42 @@
     
 
 }
-@media screen and (min-width: 551px) and (max-width:750px){
+
+@media screen and (max-width:750px){
     #header{
         width: 100%;
-        height: 60vh;
+        height: 50vh;
+        background:  
+            linear-gradient(
+                rgba(54, 54, 54, 0.45), 
+                rgba(31, 31, 31, 0.45)
+                ),
+          url('../assets/images/header_img.jpg') 
+          no-repeat center center /cover;
     }
-    
-    #header .header-container{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    #header .header-container .header-image{
-        width: 100%;
-        max-height: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    #header .header-container .header-image img{
-        max-width: 550px;
-        height: auto;
-    }
-    
-    .header-content{
-        padding-top: 1rem;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .header-content div{
-        width: 90%;        
-        margin: 0 auto;
-        align-self: center;
-        margin-bottom: 0.2rem;
-    }
-    
-    .header-content div h1{
-        display: inline;
-        font-size: 3rem;
-        line-height: 1;
-        padding-right: 10px;
-    }
-    .header-content div h1:last-child{
-        font-size: 2.90rem;
-    }
-    
-    .header-content div:nth-child(2){
-        font-size: 0.9rem;
-        
-    }
-    
-    .header-content img{
-        height: 50px;
-    }
-    
-    
 
+    #header .header-container .header-image{
+        display: none;
+    }
 }
 
-@media screen and (min-width: 481px) and (max-width:550px){
+
+@media screen and (min-width: 551px) and (max-width:750px){
     #header{
-        width: 100%;
         height: 60vh;
     }
     
     #header .header-container{
-        width: 100%;
+        width: 80%;
         height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    #header .header-container .header-image{
-        width: 100%;
-    }
-    
-    #header .header-container .header-image img{
-        max-width: 100%;
-        height: auto;
-    }
+
     
     .header-content{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         text-align: center;
     }
     
@@ -323,17 +264,70 @@
     }
     
     .header-content div h1{
-        display: inline;
-        font-size: 2.75rem;
-        line-height: 1;
-        padding-right: 10px;
+        font-size: 3.75rem;
+        line-height: 1.25;
     }
     .header-content div h1:last-child{
-        font-size: 2.5rem;
+        font-size: 3.15rem;
     }
     
     .header-content div:nth-child(2){
-        font-size: 0.9rem;
+        padding-bottom: 15px;
+    }
+
+    .header-content div:nth-child(2) p{
+        font-size: 1rem;
+    }
+    
+    
+    .header-content img{
+        height: 50px;
+    }
+    
+    
+
+}
+
+@media screen and (min-width: 481px) and (max-width:550px){
+    #header{
+        height: 60vh;
+    }
+    
+    #header .header-container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .header-content{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .header-content div{
+        width: 90%;        
+        margin: 0 auto;
+        align-self: center;
+        margin-bottom: 1rem;
+    }
+    
+    .header-content div h1{
+        font-size: 3.75rem;
+        line-height: 1.25;
+    }
+    .header-content div h1:last-child{
+        font-size: 3.15rem;
+    }
+    
+    .header-content div:nth-child(2){
+        padding-bottom: 15px;
+    }
+
+    .header-content div:nth-child(2) p{
+        font-size: 1rem;
     }
     
     
@@ -345,31 +339,18 @@
 }
 
 @media screen and (max-width:480px){
-    #header{
-        width: 100%;
-        height: 30vh;
-    }
     
     #header .header-container{
-        padding-top: 1rem;
-        width: 100%;
-        margin: 0 auto;
+        width: 90%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     
-    #header .header-container .header-image{
-        display: none;
-    }
     
     .header-content{
-        height: 90%;
+        height: 100%;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         text-align: center;
     }
     
@@ -379,16 +360,19 @@
     }
     
     .header-content div h1{
-        font-size: 3rem;
-        line-height: 1;
+        font-size: 3.50rem;
     }
     .header-content div h1:last-child{
-        font-size: 2.25rem;
-        padding-bottom: 15px;
+        font-size: 2.75rem;
+        padding-bottom: 25px;
+    }
+
+    .header-content div:nth-child(2){
+        padding-bottom: 25px;
     }
     
-    .header-content div:nth-child(2){
-        font-size: 0.9rem;
+    .header-content div:nth-child(2) p{
+        font-size: 0.85rem;
     }
     
     
@@ -402,15 +386,20 @@
  
     
     .header-content div h1{
-        font-size: 2.25rem;
+        font-size: 3rem;
     }
     .header-content div h1:last-child{
-        font-size: 1.85rem;
+        font-size: 2.15rem;
         padding-bottom: 15px;
     }
     
     .header-content div:nth-child(2){
-        font-size: 0.75rem;
+        padding-bottom: 15px;
+
+    }
+
+    .header-content div:nth-child(2) p{
+        font-size: 0.8rem;
     }
     
     
