@@ -447,11 +447,11 @@
 
 @media screen and (max-width:480px){
     #footer{
-        height: 50vh;
+        height: 55vh;
     }
     
     #footer .footer-container{
-        height: 95%;
+        height: 90%;
         padding-top: 0;
         width: 90%;
     }
