@@ -7,29 +7,38 @@ function importAll(r) {
 const projectDetails = [
     {
         title: 'LineTracker',
-        cardImage: images[3],
+        url: 'https://github.com/jonathon-evans/CSC424-Project',
+        cardImage: images[4],
         imageGallery: [
-            images[5],
-            images[4]
+            images[6],
+            images[5]
                     ]
     },
     {
         title: 'Odin\'s',
-        cardImage: images[9],
+        url: 'https://github.com/ColbPeyton/odin_restaurant',
+        cardImage: images[10],
         imageGallery: [
-            images[6],
             images[7],
-            images[8]
+            images[8],
+            images[9]
                     ]
     },
     {
         title: 'Perfect Fetch',
-        cardImage: images[11],
+        url: 'https://github.com/ColbPeyton/perfect_fetch',
+        cardImage: images[12],
         imageGallery: [
-            images[12],
             images[13],
-            images[14]
+            images[14],
+            images[15]
                     ]
+    },
+    {
+        title: 'Future Project',
+        url: '',
+        cardImage: images[19],
+        imageGallery: []
     }
 ];
 

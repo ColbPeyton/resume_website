@@ -1,5 +1,5 @@
 import React from 'react';
-import headerImg from '../assets/images/header_img.jpg'
+import headerImg from '../assets/images/header_img_large.png'
 import downArrow from '../assets/icons/keyboard_arrow_right-24px.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import '../styles/Header.css';
@@ -9,7 +9,7 @@ function Header(){
         <header id='header'>
             <div className='header-container'>
                 <div className='header-image'>
-                    <img src={headerImg} alt='Working on a project'/>
+                    <img src={headerImg} alt='me working on a project'/>
                 </div>
                 <div className='header-content'>
                     <div>
@@ -17,8 +17,9 @@ function Header(){
                         <h1>I'm Colby.</h1>
                     </div>
                     <div className='header-info'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Etiam porta, sapien ut ultrices dictum, enim justo iaculis 
+                        <p>
+                        I'm a Full Stack Web Developer with a passion for problem solving. 
+                        Scroll to learn more and see what I'm working on.
                         </p>
                     </div>
                     <div>
