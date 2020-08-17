@@ -463,7 +463,7 @@
         flex-direction: column;
     }
     #footer .footer-img{
-        padding-bottom: 1rem;
+        padding: 1rem 0;
     }
     
     #footer .footer-img img{
