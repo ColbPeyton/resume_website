@@ -134,6 +134,7 @@
         font-weight: 100;
     }
 }
+
 @media screen and (min-width: 551px) and (max-width:750px){
     .timeline-info{
         height: 100%;
@@ -245,4 +246,55 @@
     .timeline-info .info-list p{
         font-size: 0.65rem;
     }
+}
+
+
+
+@media (max-width: 767px) and (orientation:landscape) {
+    .timeline-info li{
+        margin-bottom: 1.5rem;
+    }
+    
+    .timeline-info .info-icon{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .timeline-info .info-list{
+        height: 100%;
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    
+    .timeline-info .info-list p{
+        font-size: 0.75rem;
+    }
+
+
+}
+
+
+@media (max-width: 570px) and (orientation:landscape) {
+
+    .timeline-info li{
+        margin-bottom: 1rem;
+    }
+    
+    .timeline-info .info-icon{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .timeline-info .info-list{
+        height: 100%;
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    
+    .timeline-info .info-list p{
+        font-size: 0.5rem;
+    }
+
 }
