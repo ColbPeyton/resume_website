@@ -180,7 +180,7 @@
     
     .progress-bar-container .progress-title p{
         padding-top: 0;
-        font-size: 1rem;
+        font-size: 0.75rem;
         letter-spacing: 3px;
         font-weight: 100;
         text-align: left;
@@ -267,3 +267,8 @@
     }
     
 } 
+
+
+
+
+

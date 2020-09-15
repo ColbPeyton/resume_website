@@ -3,7 +3,7 @@
     height: 130vh;
     background: var(--top-gradient);
     background: linear-gradient(0deg, rgba(54,48,125,1) 0%,rgba(108,96,250,1)100%);
-
+    overflow: hidden;
 }
 
 #about .about-container{
@@ -57,181 +57,9 @@
 }
 
 
-@media screen and (min-width:1025px) and (max-width:1199px){
-
-    #about{
-        height: 120vh;
-    }
-    
-    #about .about-heading{
-        align-items: flex-end;
-        padding-top: 0rem;
-        padding-bottom: 1rem;
-    }
-
-    #about .about-heading h1{
-        font-size: 5rem;
-    }
-    
-    
-    
-    #about .about-timeline{
-        height: 30%;
-        width: 90%;
-    }
-    
-    /* Need to finish styling larger resolutions */
-}
-
-@media screen and (min-width:751px) and (max-width:1024px){
-
-    #about{
-        height: 150vh;
-    }
-    
-    #about .about-heading{
-        height: 10%;
-        align-items: flex-end;
-        padding-top: 0rem;
-
-    }
-    
-    
-    #about .about-heading h1{
-        font-size: 5rem;
-    }
-    
-    
-    #about .about-timeline{
-        height: 30%;
-        width: 100%;
-    }
-    
-    
-    #about .about-skills{
-        height: 50%;
-        width: 100%;
-    }
-
-    
-    
-
-}
-@media screen and (min-width: 551px) and (max-width:750px){
-
-    #about{
-        height: 170vh;
-    }
-    
-    #about .about-heading{
-        height: 10%;
-        align-items: flex-end;
-        padding-top: 0rem;
-
-    }
-    
-    
-    #about .about-heading h1{
-        font-size: 4.75rem;
-    }
-    
-    
-    #about .about-timeline{
-        height: 50%;
-        width: 100%;
-        flex-direction: column;
-    }
-    
-    #about .about-line{
-        margin: 2rem 0 2.5rem;
-    }
-    
-    #about .about-skills{
-        height: 50%;
-        width: 100%;
-    }
-
-    
-
-}
-
-@media screen and (min-width: 481px) and (max-width:550px){
-
-    #about{
-        height: 170vh;
-        
-    }
-    
-    #about .about-heading{
-        height: 10%;
-        align-items: flex-end;
-        margin-top: 1rem;
-        padding-top: 0rem;
-    }
-    
-    #about .about-heading h1{
-        font-size: 4.75rem;
-    }
-    
-    
-    #about .about-timeline{
-        height: 50%;
-        width: 100%;
-        flex-direction: column;
-    }
-    
-    #about .about-line{
-        margin: 2rem 0 2.5rem;
-    }
-    
-    #about .about-skills{
-        height: 50%;
-        width: 100%;
-    }
 
 
-}
-
-@media screen and (max-width:480px){
-
-    #about{
-        height: 150vh;
-    }
-
-    
-    #about .about-heading{
-        height: 10%;
-        align-items: flex-end;
-        padding-top: 0rem;
-
-    }
-    
-    
-    #about .about-heading h1{
-        font-size: 3rem;
-    }
-    
-    
-    #about .about-timeline{
-        height: 50%;
-        width: 100%;
-        flex-direction: column;
-    }
-    
-    #about .about-line{
-        margin: 2rem 0 2.5rem;
-    }
-    
-    #about .about-skills{
-        height: 50%;
-        width: 100%;
-    }
-
-
-
-}
-
-@media screen and (max-width:360px){
+@media (min-width: 320px){
     #about{
         height: 150vh;
     }
@@ -245,7 +73,7 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        padding-top: 1rem;
+        padding: 1rem 0;
     }
     
     
@@ -256,10 +84,6 @@
     
     #about .about-timeline{
         height: 45%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
     
     #about .about-line{
@@ -270,36 +94,237 @@
         height: 40%;
         width: 80%;
     }
+}
+
+@media (min-width: 374px){
+
+    #about .about-heading{
+        height: 15%;
+        align-items: flex-end;
+        padding-top: 1rem;
+    }
+    
+    
+    #about .about-heading h1{
+        font-size: 3.5rem;
+    }
+    
+    
+    #about .about-timeline{
+        padding-top: 1rem;
+        height: 50%;
+        width: 100%;
+    }
+    
+    #about .about-line{
+        margin: 2rem 0 2.5rem;
+    }
+    
+    #about .about-skills{
+        height: 50%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) {
+ 
+    #about{
+        padding-top: 2rem;
+    }
+
+    #about .about-heading{
+        height: 25%;
+        align-items: flex-end;
+        padding-top: 0;
+    }
+    
+    
+    #about .about-heading h1{
+        font-size: 3.75rem;
+        padding-bottom:1rem ;
+    }
+
+    #about .about-timeline{
+        padding-top: 0rem;
+        height: 50%;
+        width: 100%;
+    }
+    
+    #about .about-line{
+        margin: 2rem 0 2.5rem;
+    }
+    
+    #about .about-skills{
+        height: 50%;
+        width: 100%;
+    }
+}
+
+/* @media (max-width: 767px) and (orientation:landscape) {
 
 
+} */
 
+@media (min-width: 768px) { 
+
+    #about{
+        height: 150vh;
+    }
+    
+    #about .about-heading{
+        height: 10%;
+        align-items: flex-end;
+        padding-top: 0rem;
+
+    }
+    
+    
+    #about .about-heading h1{
+        font-size: 5rem;
+    }
+    
+    
+    #about .about-timeline{
+        height: 30%;
+        width: 100%;
+    }
+    
+    
+    #about .about-skills{
+        height: 50%;
+        width: 100%;
+    }
 
 }
 
 
-/* 
-@media screen and (max-width:1200px){
+@media (min-width: 992px) { 
+    #about{
+        height: 140vh;
+    }
+    
+    #about .about-heading{
+        align-items: flex-end;
+        padding: 1rem 0;
+    }
+
+    #about .about-heading h1{
+        font-size: 5rem;
+    }
+    
+    
+    
+    #about .about-timeline{
+        height: 30%;
+        width: 90%;
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+
+    #about{
+        height: 145vh;
+    }
+ 
+    #about .about-heading{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+
+    #about .about-heading h1{
+        font-size: 5rem;
+    }
+    
+    #about .about-timeline{
+        height: 40%;
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width:1440px){
+    #about{
+        height: 135vh;
+    }
+    
+    #about .about-container{
+        width: 80%;    
+    }
+    
+    #about .about-heading{
+        width: 80%;
+    }
+    
+    
+    #about .about-heading h1{
+        font-size: 6rem;
+    }
+    
+    
+    #about .about-timeline{
+        height: 35%;
+    }
+    
+    #about .about-line{
+        width: 90%;
+    }
+    
+    #about .about-skills{
+        margin: 0 auto;
+        height: 40%;
+    }
+    
+}
+
+
+@media screen and (min-width:2000px){
+
+    #about{
+        height: 60vh;
+    }
+    #about .about-heading{
+        margin-top: 1rem;
+    }
+    
+    #about .about-heading h1{
+        font-size: 7rem;
+    }
+
+}
+
+
+
+
+
+/* @media (min-width: 320px){
  
 }
-@media screen and (min-width:1025px) and (max-width:1199px){
+
+@media (min-width: 374px){
 
 }
 
-@media screen and (min-width:751px) and (max-width:1024px){
-
-}
-@media screen and (min-width: 551px) and (max-width:750px){
+@media (min-width: 480px) {
 
 }
 
-@media screen and (min-width: 481px) and (max-width:550px){
+@media (max-width: 767px) and (orientation:landscape) {
 
 }
 
-@media screen and (max-width:480px){
+@media (min-width: 768px) { 
 
 }
 
-@media screen and (max-width:360px){
 
+@media (min-width: 992px) { 
+ 
+}
+
+@media screen and (min-width:1200px){
+ 
 } */
