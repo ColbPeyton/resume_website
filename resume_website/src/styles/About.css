@@ -129,7 +129,8 @@
 @media (min-width: 480px) {
  
     #about{
-        padding-top: 2rem;
+        height: 185vh;
+        padding-top: 1rem;
     }
 
     #about .about-heading{
@@ -157,6 +158,13 @@
     #about .about-skills{
         height: 50%;
         width: 100%;
+    }
+}
+
+@media (min-width: 650px) {
+    #about{
+        height: 150vh;
+        padding-top: 2rem;
     }
 }
 
