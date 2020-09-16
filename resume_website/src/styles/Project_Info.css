@@ -94,3 +94,34 @@
     }
  
 }
+
+@media (max-width: 850px) and (max-height: 450px)and (orientation:landscape) {
+    .project-info .project-overlay:hover{
+        background-color: transparent;
+    }
+
+    .project-info .project-overlay{
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+
+
+    .project-info .project-overlay p{
+        padding: 2px 10px 0;
+        font-size: 0.85rem;
+        width: 100%;
+        background: #3f3f48e0;
+
+    }
+    
+
+    .hidden{
+        display: flex !important;
+        pointer-events:none;
+    }
+
+    .hidden p{
+        align-self: flex-start;
+    }
+
+}
