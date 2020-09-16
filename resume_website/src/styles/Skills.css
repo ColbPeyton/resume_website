@@ -48,6 +48,34 @@
 }
 
 
+@media screen and (min-width:1400px){
+
+
+    #skills .skills-title h1{
+        font-size: 5.5rem;
+    }
+    
+    #skills .skills-icon h1{
+        font-size: 25rem;
+        margin-right: 0.5rem;
+    }
+
+}
+
+@media screen and (min-width:2000px){
+
+
+    #skills .skills-title h1{
+        font-size: 5.75rem;
+    }
+    
+    #skills .skills-icon h1{
+        font-size: 25rem;
+        margin-right: 1rem;
+    }
+
+}
+
 
 
 @media screen and (min-width:1025px) and (max-width:1199px){

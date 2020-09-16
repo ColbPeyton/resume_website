@@ -1,10 +1,12 @@
 #header{
     width: 100%;
     height: 65vh;
+    max-height: 500px;
     background: var(--header-background);
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #header .header-container{
@@ -73,14 +75,39 @@
 }
 
 
-
-
-@media screen and (max-width:1200px){
- 
+@media screen and (min-width:1200px){
+    #header{
+        height: 50vh;
+        min-height: 500px;
+        max-height: 550px;
+    }
+    .header-content div h1{
+        font-size: 4.5rem;
+        letter-spacing: 5px;
+    }
+    
+    .header-content div h1:last-child{
+        font-size: 3.5rem;
+    }
 }
+
+@media screen and (min-width:1440px){
+
+    #header{
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width:2000px){
+    #header{
+        height: 45vh;
+    }
+}
+
+
 @media screen and (min-width:1025px) and (max-width:1199px){
     #header{
-        height: 55vh;
+        height: 50vh;
     }
     
     #header .header-container{
@@ -134,9 +161,9 @@
     }
 }
 
-@media screen and (min-width:770px) and (max-width:1024px){
+@media screen and (min-width:771px) and (max-width:1024px){
     #header{
-        height: 55vh;
+        height: 50vh;
     }
     
     #header .header-container{
@@ -155,7 +182,7 @@
     }
 
     #header .header-container .header-image img{
-        max-height: 325px;
+        max-height: 350px;
     }
     
     
@@ -193,7 +220,7 @@
 
 }
 
-@media screen and (max-width:769px){
+@media screen and (max-width:770px){
     #header{
         width: 100%;
         height: 50vh;
@@ -212,7 +239,7 @@
 }
 
 
-@media screen and (min-width: 551px) and (max-width:769px){
+@media screen and (min-width: 551px) and (max-width:770px){
     #header{
         height: 60vh;
     }

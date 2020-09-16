@@ -33,6 +33,37 @@
     font-weight: 300;
 }
 
+@media screen and (min-width:1440px){
+
+    .progress-bar{
+        width: 50px;
+    }
+
+
+    .progress-bar-container{
+        padding-right: 100px;
+    }
+    .progress-bar-container p{
+
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (min-width:2000px){
+    .progress-bar{
+        width: 55px;
+    }
+
+
+    .progress-bar-container{
+        padding-right: 100px;
+    }
+    .progress-bar-container p{
+
+        font-size: 0.9rem;
+    }
+}
+
 
 @media screen and (min-width:1025px) and (max-width:1199px){
     .progress-bar-container{

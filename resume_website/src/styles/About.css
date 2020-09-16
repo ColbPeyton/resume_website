@@ -4,6 +4,8 @@
     background: var(--top-gradient);
     background: linear-gradient(0deg, rgba(54,48,125,1) 0%,rgba(108,96,250,1)100%);
     overflow: hidden;
+    max-height: 1100px;
+
 }
 
 #about .about-container{
@@ -234,6 +236,8 @@
 
     #about{
         height: 145vh;
+        min-height: 1000px;
+        max-height: 1200px;
     }
  
     #about .about-heading{
@@ -250,8 +254,9 @@
     
     #about .about-timeline{
         height: 40%;
-        width: 70%;
+        width: 80%;
     }
+ 
 }
 
 
@@ -261,7 +266,7 @@
     }
     
     #about .about-container{
-        width: 80%;    
+        min-width: 1400px;   
     }
     
     #about .about-heading{
@@ -276,6 +281,7 @@
     
     #about .about-timeline{
         height: 35%;
+        width: 70%;
     }
     
     #about .about-line{
@@ -285,7 +291,9 @@
     #about .about-skills{
         margin: 0 auto;
         height: 40%;
+        width: 100%;
     }
+
     
 }
 
@@ -293,14 +301,23 @@
 @media screen and (min-width:2000px){
 
     #about{
-        height: 60vh;
+        height: 75vh;
+        max-height: 1500px;
     }
     #about .about-heading{
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
     
     #about .about-heading h1{
-        font-size: 7rem;
+        font-size: 6.75rem;
+    }
+    #about .about-timeline{
+        height: 40%;
+        width: 75%;
+    }
+
+    #about .about-line{
+        width: 90%;
     }
 
 }

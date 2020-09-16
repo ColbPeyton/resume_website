@@ -64,6 +64,50 @@
         font-weight: 100;
     }
 }
+
+@media screen and (min-width:1400px){
+    .timeline-info .info-icon{
+        width: 85px;
+        height: 85px;
+    }
+    .timeline-info .info-list{
+        font-size: 1.75rem;
+    }
+    
+    .timeline-info li{
+        margin-bottom: 1.25rem;
+    }
+    
+    
+    .timeline-info .info-list p{
+        font-size: 1.25rem;
+        font-weight: 100;
+    }
+
+}
+
+@media screen and (min-width:2000px){
+    .timeline-info .info-icon{
+        width: 85px;
+        height: 85px;
+    }
+    .timeline-info .info-list{
+        font-size: 2rem;
+    }
+    
+    .timeline-info li{
+        margin-bottom: 1.25rem;
+    }
+    
+    
+    .timeline-info .info-list p{
+        font-size: 1.45rem;
+        font-weight: 100;
+    }
+
+}
+
+
 @media screen and (min-width:1025px) and (max-width:1199px){
 
     .timeline-info{
