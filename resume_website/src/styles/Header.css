@@ -387,7 +387,8 @@
 
 }
 
-@media (max-width: 767px) and (orientation:landscape) {
+
+@media (max-width: 750px) and (orientation:landscape) {
     #header{
         height: 80vh;
     }
@@ -436,6 +437,71 @@
 
 
 }
+
+@media (max-width: 850px) and (max-height: 400px)and (orientation:landscape) {
+
+    #header{
+        height: 90vh;
+        background:  
+            linear-gradient(
+                rgba(54, 54, 54, 0.45), 
+                rgba(31, 31, 31, 0.45)
+                ),
+          url('../assets/images/header_img.jpg') 
+          no-repeat center center /cover;
+    }
+
+    #header .header-container .header-image{
+        display: none;
+    }
+    #header{
+        height: 80vh;
+    }
+    
+    #header .header-container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .header-content{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .header-content div{
+        width: 90%;        
+        margin: 0 auto;
+        align-self: center;
+        margin-bottom: 1rem;
+    }
+    
+    .header-content div h1{
+        font-size: 3.75rem;
+        line-height: 1.25;
+    }
+    .header-content div h1:last-child{
+        font-size: 3.15rem;
+    }
+    
+    .header-content div:nth-child(2){
+        padding-bottom: 15px;
+    }
+
+    .header-content div:nth-child(2) p{
+        font-size: 1rem;
+    }
+    
+    
+    .header-content img{
+        height: 50px;
+    }
+
+}
+
 
 
 @media (max-width: 570px) and (orientation:landscape) {

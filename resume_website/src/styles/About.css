@@ -47,11 +47,14 @@
     width: 80%;
     background: #fff;
     height: 1px;
+    
     margin: 2rem 0 4rem;
 }
 
 #about .about-skills{
     margin: 0 auto;
+    padding-top: 10px;
+
     height: 30%;
     width: 90%;
 }
@@ -167,6 +170,8 @@
     
 
 }
+
+
 
 
 @media (min-width: 768px) { 
@@ -301,6 +306,29 @@
 }
 
 
+
+
+@media (max-width: 850px) and (max-height: 400px)and (orientation:landscape) {
+    #about{
+        height: 210vh;
+    }
+
+    #about .about-heading h1{
+        font-size: 4rem;
+    }
+
+    #about .about-line{
+        width: 80%;
+    }
+
+    #about .about-skills{
+        padding-top: 20px;
+        margin: 0 auto;
+        height: 50%;
+    }
+    
+
+}
 
 
 

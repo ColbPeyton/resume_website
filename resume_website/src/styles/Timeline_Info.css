@@ -275,7 +275,7 @@
 }
 
 
-@media (max-width: 570px) and (orientation:landscape) {
+@media (max-width: 850px) and (orientation:landscape) {
 
     .timeline-info li{
         margin-bottom: 1rem;
