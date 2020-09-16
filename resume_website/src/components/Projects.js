@@ -30,6 +30,9 @@ function Projects(){
                     <div className='project' onClick={()=> setCurrentProject(ProjectDetails[3])}>
                         <ProjectInfo project={{title: ProjectDetails[3].title, image: ProjectDetails[3].cardImage}} />
                     </div>
+                    <div className='project' onClick={()=> setCurrentProject(ProjectDetails[4])}>
+                        <ProjectInfo project={{title: ProjectDetails[4].title, image: ProjectDetails[4].cardImage}} />
+                    </div>
   
                 </div>
                 <div className='project-display'>

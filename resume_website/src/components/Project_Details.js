@@ -44,6 +44,17 @@ const projectDetails = [
             images[12],
             images[13],
                     ]
+    },
+    {
+        title: 'Odin Weather',
+        url: 'https://github.com/ColbPeyton/odin_weather',
+        cardImage: images[24],
+        imageGallery: [
+            images[20],
+            images[22],
+            images[21],
+            images[23],
+                    ]
     }
 ];
 
