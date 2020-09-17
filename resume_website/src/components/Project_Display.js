@@ -8,13 +8,20 @@ import '../styles/Project_Display.css';
 
 function ProjectDisplay(props){
 
-    const [index, setIndex] = useState(0);
+    // const [index, setIndex] = useState(0);
+
+    function updateParentState(direction){
+        let temp = props.pos;
+        temp += direction;
+        props.updatePosition(temp, props.project.imageGallery)
+    }
 
     function renderCurrentImage(){
-        if(index > props.project.imageGallery.length - 1) setIndex(0);
-        if(index < 0)setIndex((props.project.imageGallery.length - 1));
+        // if(props.startAtFirst) setIndex(0); 
+        // if(index > props.project.imageGallery.length - 1) setIndex(0);
+        // if(index < 0)setIndex((props.project.imageGallery.length - 1));
         return(
-            <img src={props.project.imageGallery[index]} alt={props.project.title}/>
+            <img src={props.project.imageGallery[props.pos]} alt={props.project.title}/>
         )
     }
     return(
@@ -23,9 +30,9 @@ function ProjectDisplay(props){
                 {renderCurrentImage()}
             </div>
             <div className='display-controls'>
-                <button onClick={() => setIndex(index + 1)}><img className='left-arrow' src={arrow} alt='left arrow'></img></button>
+                <button onClick={() => updateParentState(-1)}><img className='left-arrow' src={arrow} alt='left arrow'></img></button>
                 <a href={props.project.url} rel="noopener noreferrer" target='_blank'><img className='git-icon' src={gitIcon} alt='git icon'></img></a>
-                <button onClick={() => setIndex(index - 1)}><img className='right-arrow' src={arrow} alt='right arrow'></img></button>
+                <button onClick={() => updateParentState(1)}><img className='right-arrow' src={arrow} alt='right arrow'></img></button>
             </div>
         </div>
     )

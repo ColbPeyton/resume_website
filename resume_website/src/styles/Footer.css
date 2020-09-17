@@ -273,6 +273,7 @@
 @media screen and (min-width: 546px) and (max-width:763px){
     #footer{
         height: 50vh;
+        max-height: 350px;
     }
     
     #footer .footer-container{

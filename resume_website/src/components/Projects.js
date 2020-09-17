@@ -9,17 +9,26 @@ function Projects(){
 
 
     const [currentProject, setCurrentProject] = useState(ProjectDetails[0]);
-    const [startAtFirstImage, setStartAtFirstImage] = useState(true);
+    const [currentPos, setcurrentPos] = useState(0);
 
     // project display is disabled on smaller screens, open project's github link
     function changeClickBasedOnResolution(ProjectDetails){
         if(window.screen.width < 480 || window.screen.height < 450){
             window.open(`${ProjectDetails.url}`);
         }
+        setcurrentPos(0)
         setCurrentProject(ProjectDetails);
-        setStartAtFirstImage(false);
     }
 
+    function updatePosition(pos, imageAmount){
+        if(pos > imageAmount.length - 1){
+            setcurrentPos(0)
+        }else if(pos < 0){
+            setcurrentPos((imageAmount.length - 1))
+        }else{
+            setcurrentPos(pos);
+        }
+    }
 
     return(
         <div id='projects'>
@@ -46,7 +55,11 @@ function Projects(){
   
                 </div>
                 <div className='project-display'>
-                    <ProjectDisplay project={currentProject}/>
+                    <ProjectDisplay 
+                        project={currentProject} 
+                        updatePosition={updatePosition}
+                        pos={currentPos}
+                        />
                 </div>
             </div>
         </div>
