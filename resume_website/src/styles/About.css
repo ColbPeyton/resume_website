@@ -135,6 +135,7 @@
  
     #about{
         height: 190vh;
+        min-height: 1250px;
         padding-top: 2rem;
     }
 
@@ -168,6 +169,7 @@
 @media (max-width: 570px) and (orientation:landscape) {
     #about{
         height: 200vh;
+        min-height: 700px;
     }
     
 
@@ -325,12 +327,14 @@
 
 
 
-@media (max-width: 850px) and (max-height: 400px)and (orientation:landscape) {
+@media (max-width: 850px) and (max-height: 415px)and (orientation:landscape) {
     #about{
-        height: 210vh;
+        height: 200vh;
+        min-height: 700px;
     }
 
     #about .about-heading h1{
+        padding-top: 1rem;
         font-size: 4rem;
     }
 

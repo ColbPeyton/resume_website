@@ -9,13 +9,15 @@ function Projects(){
 
 
     const [currentProject, setCurrentProject] = useState(ProjectDetails[0]);
+    const [startAtFirstImage, setStartAtFirstImage] = useState(true);
 
     // project display is disabled on smaller screens, open project's github link
     function changeClickBasedOnResolution(ProjectDetails){
         if(window.screen.width < 480 || window.screen.height < 450){
             window.open(`${ProjectDetails.url}`);
         }
-        setCurrentProject(ProjectDetails)
+        setCurrentProject(ProjectDetails);
+        setStartAtFirstImage(false);
     }
 
 
