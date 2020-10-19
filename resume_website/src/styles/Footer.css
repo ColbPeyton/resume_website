@@ -469,8 +469,8 @@
 @media screen and (max-width:480px){
     #footer{
         height: 50vh;
-        max-height: 350px;
-        min-height: 325px;
+        max-height: 355px;
+        min-height: 340px;
     }
     
     #footer .footer-container{
@@ -484,6 +484,7 @@
         min-height: 150px;
         max-height: 175px;
         width: 100%;
+        margin: 1rem 0 0.75rem;
         display: flex;
         flex-direction: column;
     }
