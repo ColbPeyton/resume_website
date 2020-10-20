@@ -41,16 +41,19 @@ function Projects(){
                         <ProjectInfo project={{title: ProjectDetails[0].title, image: ProjectDetails[0].cardImage}} />
                     </div>
                     <div className='project' onClick={()=> changeClickBasedOnResolution(ProjectDetails[1])}>
-                        <ProjectInfo project={{title: ProjectDetails[1].title, image: ProjectDetails[1].cardImage}} />
+                        <ProjectInfo project={{title: ProjectDetails[1].title, image: ProjectDetails[0].cardImage}} />
                     </div>
                     <div className='project' onClick={()=> changeClickBasedOnResolution(ProjectDetails[2])}>
-                        <ProjectInfo project={{title: ProjectDetails[2].title, image: ProjectDetails[2].cardImage}} />
+                        <ProjectInfo project={{title: ProjectDetails[2].title, image: ProjectDetails[1].cardImage}} />
                     </div>
                     <div className='project' onClick={()=> changeClickBasedOnResolution(ProjectDetails[3])}>
-                        <ProjectInfo project={{title: ProjectDetails[3].title, image: ProjectDetails[3].cardImage}} />
+                        <ProjectInfo project={{title: ProjectDetails[3].title, image: ProjectDetails[2].cardImage}} />
                     </div>
                     <div className='project' onClick={()=> changeClickBasedOnResolution(ProjectDetails[4])}>
-                        <ProjectInfo project={{title: ProjectDetails[4].title, image: ProjectDetails[4].cardImage}} />
+                        <ProjectInfo project={{title: ProjectDetails[4].title, image: ProjectDetails[3].cardImage}} />
+                    </div>
+                    <div className='project' onClick={()=> changeClickBasedOnResolution(ProjectDetails[5])}>
+                        <ProjectInfo project={{title: ProjectDetails[5].title, image: ProjectDetails[4].cardImage}} />
                     </div>
   
                 </div>
