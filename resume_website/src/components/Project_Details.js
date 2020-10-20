@@ -2,8 +2,12 @@ function importAll(r) {
     return r.keys().map(r);
   }
   
-  const images = importAll(require.context('../assets/images', false, /\.(png|jpe?g|svg)$/));
+  const imagesBreakingBad = importAll(require.context('../assets/images/breakingBad', false, /\.(png|jpe?g|svg)$/));
   const imagesFactory = importAll(require.context('../assets/images/factory', false, /\.(png|jpe?g|svg)$/));
+  const imagesLineTracker = importAll(require.context('../assets/images/linetracker', false, /\.(png|jpe?g|svg)$/));
+  const imagesPerfectFetch = importAll(require.context('../assets/images/perfectFetch', false, /\.(png|jpe?g|svg)$/));
+  const imagesOdin = importAll(require.context('../assets/images/odin', false, /\.(png|jpe?g|svg)$/));
+  const imagesWeather = importAll(require.context('../assets/images/weather', false, /\.(png|jpe?g|svg)$/));
 
 const projectDetails = [
     {
@@ -42,52 +46,52 @@ const projectDetails = [
     {
         title: 'LineTracker',
         url: 'https://github.com/jonathon-evans/CSC424-Project',
-        cardImage: images[9],
+        cardImage: imagesLineTracker[0],
         imageGallery: [
-            images[10],
-            images[11]
+            imagesLineTracker[1],
+            imagesLineTracker[2]
                     ]
     },
     {
         title: 'Breaking Bad Quotes',
         url: 'https://github.com/ColbPeyton/BB_guessing_game',
-        cardImage: images[0],
+        cardImage: imagesBreakingBad[0],
         imageGallery: [
-            images[6],
-            images[4],
-            images[1],
-            images[5],
-            images[2],
+            imagesBreakingBad[1],
+            imagesBreakingBad[2],
+            imagesBreakingBad[3],
+            imagesBreakingBad[4],
+            imagesBreakingBad[5],
                     ]
     },
     {
         title: 'Perfect Fetch',
         url: 'https://github.com/ColbPeyton/perfect_fetch',
-        cardImage: images[15],
+        cardImage: imagesPerfectFetch[0],
         imageGallery: [
-            images[17],
-            images[18],
-            images[16]
+            imagesPerfectFetch[1],
+            imagesPerfectFetch[2],
+            imagesPerfectFetch[3]
                     ]
     },
     {
         title: 'Odin\'s',
         url: 'https://github.com/ColbPeyton/odin_restaurant',
-        cardImage: images[14],
+        cardImage: imagesOdin[0],
         imageGallery: [
-            images[12],
-            images[13],
+            imagesOdin[1],
+            imagesOdin[2],
                     ]
     },
     {
         title: 'Odin Weather',
         url: 'https://github.com/ColbPeyton/odin_weather',
-        cardImage: images[24],
+        cardImage: imagesWeather[0],
         imageGallery: [
-            images[20],
-            images[22],
-            images[21],
-            images[23],
+            imagesWeather[1],
+            imagesWeather[2],
+            imagesWeather[3],
+            imagesWeather[4],
                     ]
     }
 ];
