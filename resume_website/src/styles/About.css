@@ -83,7 +83,7 @@
     
     
     #about .about-heading h1{
-        font-size: 3rem;
+        font-size: var(--mobile-small);
     }
     
     
@@ -102,6 +102,10 @@
 }
 
 @media (min-width: 374px){
+    #about{
+        height: 160vh;
+    }
+
 
     #about .about-heading{
         height: 15%;
@@ -111,7 +115,7 @@
     
     
     #about .about-heading h1{
-        font-size: 3.5rem;
+        font-size: var(--mobile-med);
     }
     
     
@@ -147,7 +151,7 @@
     
     
     #about .about-heading h1{
-        font-size: 3.75rem;
+        font-size: var(--mobile-large);
         padding-bottom:1rem ;
     }
 
@@ -193,7 +197,7 @@
     
     
     #about .about-heading h1{
-        font-size: 5rem;
+        font-size: var(--standard-small);
     }
     
     
@@ -218,11 +222,11 @@
     
     #about .about-heading{
         align-items: flex-end;
-        padding: 1rem 0;
+        margin: 2rem 0 0;
     }
 
     #about .about-heading h1{
-        font-size: 5rem;
+        font-size: var(--standard-med);
     }
     
     
@@ -247,11 +251,11 @@
         height: 15%;
         display: flex;
         justify-content: center;
-        padding-top: 1rem;
+        margin: 1rem 0 0;
     }
 
     #about .about-heading h1{
-        font-size: 5rem;
+        font-size: var(--standard-large);
     }
     
     #about .about-timeline{
@@ -277,7 +281,7 @@
     
     
     #about .about-heading h1{
-        font-size: 6rem;
+        font-size: var(--standard-large);
     }
     
     
@@ -311,7 +315,7 @@
     }
     
     #about .about-heading h1{
-        font-size: 6.75rem;
+        font-size: var(--standard-large);
     }
     #about .about-timeline{
         height: 40%;
@@ -335,7 +339,7 @@
 
     #about .about-heading h1{
         padding-top: 1rem;
-        font-size: 4rem;
+        font-size: var(--mobile-landscape);
     }
 
     #about .about-line{

@@ -12,17 +12,17 @@
 }
 
 #projects .projects-title{
-    padding-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0 1.5rem;
     width: 100%;
     height: 20%;
     display: flex;
     justify-content: center;
     align-content: center;
+    font-size: var(--vLarge-title);
 }
 #projects .projects-title h1{
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: var(--standard-large);
     font-weight: 100;
     letter-spacing: 10px;
 }
@@ -104,7 +104,7 @@
     }
 
     #projects .projects-title h1{
-        font-size: 5rem;
+        font-size: var(--standard-med);
     }
     
 
@@ -140,7 +140,7 @@
     }
 
     #projects .projects-title h1{
-        font-size: 4.75rem;
+        font-size: var(--standard-small);
     }
 
     #projects .project-list{
@@ -159,16 +159,17 @@
  
     #projects{
         height: 110vh;
+        max-height: 900px;
     }
     
     #projects .projects-title{
         padding-top: 0rem;
-        margin-bottom: 0rem;
+        margin: 1rem;
         height: 15%;
     }
 
     #projects .projects-title h1{
-        font-size: 4.75rem;
+        font-size: var(--mobile-large);
     }
     
     #projects .project-container{
@@ -204,19 +205,24 @@
 
 @media screen and (max-width:480px){
     #projects{
-        height: 100vh;
+        height: 125vh;
         padding-bottom: 0;
-        max-height: 700px;
+        min-height: 750px;
+        max-height: 800px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
     }
     
     #projects .projects-title{
         padding-top: 0rem;
-        margin-bottom: 1rem;
+        margin: 1.5rem 0;
         height: 10%;
     }
     #projects .projects-title h1{
         line-height: 1;
-        font-size: 3rem;
+        font-size: var(--mobile-med);
     }
     
     #projects .project-container{
@@ -249,16 +255,21 @@
 
 @media screen and (max-width:350px){
     #projects{
-        height: 105vh;
+        height: 125vh;
+        min-height: 650px;
+        max-height: 750px;
+
     }
 
     #projects .projects-title{
-        padding-top: 1.5rem;
-        height: 15%;
+        padding-top: 0;
+        margin: 1.5rem 0;
+        height: 10%;
     }
 
     #projects .projects-title h1{
         letter-spacing: 8px;
+        font-size: var(--mobile-small);
     }
     
     #projects .project-container{
@@ -283,6 +294,7 @@
 
     #projects{
         height:105vh;
+        min-height: 375px;
     }
     
     #projects .projects-title{
@@ -344,7 +356,7 @@
     }
 
     #projects .projects-title h1{
-        font-size: 4rem;
+        font-size: var(--mobile-landscape);
     }
     
     #projects .project-container{
