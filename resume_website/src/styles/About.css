@@ -241,9 +241,9 @@
 @media screen and (min-width:1200px){
 
     #about{
-        height: 145vh;
-        min-height: 1000px;
-        max-height: 1200px;
+        height: 155vh;
+        min-height: 1250px;
+        max-height: 1350px;
     }
  
     #about .about-heading{
