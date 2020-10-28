@@ -44,15 +44,6 @@ const projectDetails = [
                     ]
     },
     {
-        title: 'LineTracker',
-        url: 'https://github.com/jonathon-evans/CSC424-Project',
-        cardImage: imagesLineTracker[0],
-        imageGallery: [
-            imagesLineTracker[1],
-            imagesLineTracker[2]
-                    ]
-    },
-    {
         title: 'Breaking Bad Quotes',
         url: 'https://github.com/ColbPeyton/BB_guessing_game',
         cardImage: imagesBreakingBad[0],
@@ -62,6 +53,7 @@ const projectDetails = [
             imagesBreakingBad[3],
             imagesBreakingBad[4],
             imagesBreakingBad[5],
+            imagesBreakingBad[6],
                     ]
     },
     {
@@ -71,16 +63,21 @@ const projectDetails = [
         imageGallery: [
             imagesPerfectFetch[1],
             imagesPerfectFetch[2],
-            imagesPerfectFetch[3]
+            imagesPerfectFetch[3],
+            imagesPerfectFetch[4],
+            imagesPerfectFetch[5],
+            imagesPerfectFetch[6],
+            imagesPerfectFetch[7],
+            imagesPerfectFetch[8],
                     ]
     },
     {
-        title: 'Odin\'s',
-        url: 'https://github.com/ColbPeyton/odin_restaurant',
-        cardImage: imagesOdin[0],
+        title: 'LineTracker',
+        url: 'https://github.com/jonathon-evans/CSC424-Project',
+        cardImage: imagesLineTracker[0],
         imageGallery: [
-            imagesOdin[1],
-            imagesOdin[2],
+            imagesLineTracker[1],
+            imagesLineTracker[2]
                     ]
     },
     {
@@ -93,7 +90,17 @@ const projectDetails = [
             imagesWeather[3],
             imagesWeather[4],
                     ]
-    }
+    },
+    {
+        title: 'Odin\'s',
+        url: 'https://github.com/ColbPeyton/odin_restaurant',
+        cardImage: imagesOdin[0],
+        imageGallery: [
+            imagesOdin[1],
+            imagesOdin[2],
+                    ]
+    },
+
 ];
 
 export default projectDetails;
