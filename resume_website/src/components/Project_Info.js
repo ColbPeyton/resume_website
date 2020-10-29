@@ -21,7 +21,8 @@ function ProjectInfo(props){
                 backgroundImage: "url(" +  props.project.image + ")",
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
+                backgroundRepeat: 'no-repeat',
+                overflow: 'hidden'
             }} 
             onMouseEnter={()=> setOverlay(true)} 
             onMouseLeave={()=> setOverlay(false)}

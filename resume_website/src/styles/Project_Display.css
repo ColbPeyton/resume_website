@@ -51,6 +51,17 @@
     border-bottom: 3px solid var(--primary-blue);
 }
 
+.display-controls .disabled{
+    pointer-events: none;
+
+}
+.display-controls .disabled img {
+    filter: brightness(25%);
+}
+
+.display-controls .earth-icon{
+    transition: all 500ms ease-in-out;
+}
 
 
 .left-arrow{

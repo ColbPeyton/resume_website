@@ -13,6 +13,9 @@
     justify-content: center;
     align-items: center;
     transition: all 0.15s;
+    text-align: center;
+    background-color: #3f3f48e0;
+    overflow: hidden;
 }
 
 .project-info .project-overlay:hover{
@@ -31,6 +34,13 @@
     display: none !important;
 }
 
+
+@media (hover: hover) {
+    button:hover {
+        background-color: #3f3f48e0;
+
+    }
+  }
 
 
 @media screen and (max-width:1200px){

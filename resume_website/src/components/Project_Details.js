@@ -13,6 +13,7 @@ const projectDetails = [
     {
         title: 'TheFactory',
         url: 'https://github.com/ColbPeyton/practice_business',
+        urlFull: 'https://nifty-turing-8d4e6e.netlify.app/#/', 
         cardImage: imagesFactory[0],
         imageGallery: [
             imagesFactory[1],
@@ -46,6 +47,7 @@ const projectDetails = [
     {
         title: 'Breaking Bad Quotes',
         url: 'https://github.com/ColbPeyton/BB_guessing_game',
+        urlFull: 'https://reverent-rosalind-877bd2.netlify.app/', 
         cardImage: imagesBreakingBad[0],
         imageGallery: [
             imagesBreakingBad[1],
@@ -59,6 +61,7 @@ const projectDetails = [
     {
         title: 'Perfect Fetch',
         url: 'https://github.com/ColbPeyton/perfect_fetch',
+        urlFull: 'https://practical-brown-540179.netlify.app/',
         cardImage: imagesPerfectFetch[0],
         imageGallery: [
             imagesPerfectFetch[1],
@@ -74,6 +77,7 @@ const projectDetails = [
     {
         title: 'LineTracker',
         url: 'https://github.com/jonathon-evans/CSC424-Project',
+        urlFull: '',
         cardImage: imagesLineTracker[0],
         imageGallery: [
             imagesLineTracker[1],
@@ -83,6 +87,7 @@ const projectDetails = [
     {
         title: 'Odin Weather',
         url: 'https://github.com/ColbPeyton/odin_weather',
+        urlFull: '',
         cardImage: imagesWeather[0],
         imageGallery: [
             imagesWeather[1],
@@ -94,6 +99,7 @@ const projectDetails = [
     {
         title: 'Odin\'s',
         url: 'https://github.com/ColbPeyton/odin_restaurant',
+        urlFull: '',
         cardImage: imagesOdin[0],
         imageGallery: [
             imagesOdin[1],
