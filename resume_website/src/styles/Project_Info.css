@@ -46,6 +46,13 @@
         font-size: 1.25rem;
     }
 
+    .project-info{
+        width: 100%;
+        height: 90%;
+        border: 3px solid #333;
+        overflow: hidden;
+    }
+
 }
 @media screen and (min-width: 551px) and (max-width:750px){
 

@@ -338,6 +338,13 @@
     
     
     .timeline-info .info-list p{
+        font-size: 0.75rem;
+    }
+
+}
+@media (max-width: 569px) and (orientation:landscape) {
+    
+    .timeline-info .info-list p{
         font-size: 0.5rem;
     }
 

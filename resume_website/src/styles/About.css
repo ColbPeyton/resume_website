@@ -333,8 +333,9 @@
 
 @media (max-width: 850px) and (max-height: 415px)and (orientation:landscape) {
     #about{
-        height: 200vh;
+        height: 275vh;
         min-height: 700px;
+        max-height: 950px;
     }
 
     #about .about-heading h1{
@@ -347,9 +348,10 @@
     }
 
     #about .about-skills{
-        padding-top: 20px;
+        padding-top: 5px;
         margin: 0 auto;
         height: 50%;
+        max-height: 425px;
     }
     
 

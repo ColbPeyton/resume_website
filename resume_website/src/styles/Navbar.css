@@ -73,7 +73,7 @@
 
 }
 
-@media screen and (max-width:650px){
+/* @media screen and (max-width:650px){
     #nav{
         width: 25px;
         height: 200px;
@@ -92,9 +92,9 @@
         width: auto;
     }
 
-}
+} */
 
-@media screen and (max-width:649px){
+@media screen and (max-width:749px){
     #nav{
        display: none;
     }

@@ -90,7 +90,7 @@
 
 }
 
-@media (max-width: 767px) and (orientation:landscape) {
+@media (max-width: 813px) and (orientation:landscape) {
     #timeline{
         height: 100%;
         width: 100%;
@@ -99,6 +99,7 @@
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
+        max-height: 250px;
     }
 
 }
