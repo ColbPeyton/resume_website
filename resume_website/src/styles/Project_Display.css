@@ -47,8 +47,16 @@
     border: 3px solid transparent;
     outline: none;
 }
+.display-controls a{
+    border: 3px solid transparent;
+}
+
 .display-controls button:hover{
     border-bottom: 3px solid var(--primary-blue);
+}
+
+.display-controls a:hover{
+    border-bottom: 3px solid var(--primary-indigo);
 }
 
 .display-controls .disabled{
