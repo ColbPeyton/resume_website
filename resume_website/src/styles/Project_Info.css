@@ -89,6 +89,7 @@
     .project-info .project-overlay{
         justify-content: flex-start !important;
         align-items: flex-start !important;
+        background-color: transparent;
     }
 
 
