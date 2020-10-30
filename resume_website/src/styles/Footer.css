@@ -755,7 +755,9 @@
 
 @media (max-width: 767px) and (max-height: 450px)and (orientation:landscape) {
     #footer{
-        height: 90vh;
+        height: 80vh;
+        min-height: 325px;
+        max-height: 330px;
     }
     
     #footer .footer-container{
@@ -772,9 +774,10 @@
         justify-content: center;
         min-height: 175px;
         max-height: 180px;
+        margin-bottom: .1rem;
     }
     #footer .footer-img{
-        padding-bottom: .5rem;
+        padding-bottom: .2rem;
     }
     
     #footer .footer-img img{
