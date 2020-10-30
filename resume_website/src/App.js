@@ -11,19 +11,21 @@ import './styles/App.css';
 function App() {
 
   const [width, setWidth] = useState(window.innerWidth);
+  const [height, setHeight] = useState(window.innerHeight);
 
    // Header will change based on size of screen, detect change in width
    useEffect(()=>{
-    window.addEventListener("resize", updateWidth);
+    window.addEventListener("resize", updateWidthHeight);
     return () => {
-      window.removeEventListener("resize", updateWidth);
+      window.removeEventListener("resize", updateWidthHeight);
     }
 
 
 })
 
-function updateWidth(){
+function updateWidthHeight(){
   setWidth(window.innerWidth);
+  setHeight(window.innerHeight);
 }
 
   return (
@@ -31,7 +33,7 @@ function updateWidth(){
       <Navbar />
       <Header />
       <About/>
-      <Projects width={width}/>
+      <Projects width={width} height={height}/>
       <Footer />
     </div>
   );

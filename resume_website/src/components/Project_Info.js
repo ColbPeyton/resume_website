@@ -43,7 +43,7 @@ function ProjectInfo(props){
     }
 
     function updateMarkupBasedOnWidth(){
-        return props.width < 480 || window.screen.height < 415
+        return props.width < 480 || props.height < 450
         ? renderOverlayMobile()
         : renderOverlayLarge()
     }
