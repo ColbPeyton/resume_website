@@ -34,6 +34,61 @@
     display: none !important;
 }
 
+.mobile .overlay-mobile {
+    width: 100%;
+    background: #3f3f48e0;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.overlay-mobile .hidden{
+    display: inline;
+}
+
+.mobile .overlay-mobile p{
+    font-size: 0.85rem;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-mobile img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+.mobile .overlay-mobile img{
+    max-width: 100%;
+    max-height: 95%;
+}
+
+.overlay-mobile .git-icon{
+    margin-left: 5px;
+}
+.overlay-mobile .earth-icon{
+    margin-right: 5px;
+}
+
+
+.overlay-mobile .disabled{
+    pointer-events: none;
+
+}
+.overlay-mobile .disabled img {
+    filter: brightness(25%);
+}
+
+
+
+
 
 @media (hover: hover) {
     button:hover {
@@ -67,7 +122,7 @@
 @media screen and (min-width: 551px) and (max-width:750px){
 
     .project-info .project-overlay p{
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     
 }
@@ -92,24 +147,17 @@
         background-color: transparent;
     }
 
-
-    .project-info .project-overlay p{
-        padding: 2px 10px 0;
-        font-size: 0.85rem;
-        width: 100%;
-        background: #3f3f48e0;
-
-    }
-    
-
     .hidden{
         display: flex !important;
         pointer-events:none;
     }
-
+    
     .hidden p{
         align-self: flex-start;
     }
+    
+
+   
  
 }
 
@@ -125,22 +173,9 @@
     }
 
 
-    .project-info .project-overlay p{
-        padding: 2px 10px 0;
-        font-size: 0.85rem;
-        width: 100%;
-        background: #3f3f48e0;
-
-    }
-    
-
-    .hidden{
-        display: flex !important;
-        pointer-events:none;
-    }
-
-    .hidden p{
-        align-self: flex-start;
+    .mobile .overlay-mobile p{
+        font-size: 0.75rem;
+        width: 75%;
     }
 
 }
