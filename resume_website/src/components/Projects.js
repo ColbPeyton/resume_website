@@ -4,7 +4,7 @@ import ProjectDisplay from './Project_Display';
 import ProjectDetails from './Project_Details';
 
 import '../styles/Projects.css'
-import projectDetails from './Project_Details';
+// import projectDetails from './Project_Details';
 
 function Projects(props){
 
