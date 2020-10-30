@@ -396,9 +396,12 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        min-height: 175px;
+        max-height: 180px;
     }
     #footer .footer-img{
-        padding-bottom: 1rem;
+        padding-bottom: .1rem;
     }
     
     #footer .footer-img img{
@@ -409,6 +412,7 @@
     
     #footer .footer-tagline{
         width: 100%;
+        height: 30%;
     }
     
     #footer .footer-tagline h3{
@@ -772,9 +776,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-height: 175px;
-        max-height: 180px;
-        margin-bottom: .1rem;
+        min-height: 190px;
+        max-height: 200px;
     }
     #footer .footer-img{
         padding-bottom: .2rem;
