@@ -4,12 +4,66 @@ function importAll(r) {
   
   const imagesBreakingBad = importAll(require.context('../assets/images/breakingBad', false, /\.(png|jpe?g|svg)$/));
   const imagesFactory = importAll(require.context('../assets/images/factory', false, /\.(png|jpe?g|svg)$/));
+  const imagesDrHoops = importAll(require.context('../assets/images/drHoops', false, /\.(png|jpe?g|svg)$/));
   const imagesLineTracker = importAll(require.context('../assets/images/linetracker', false, /\.(png|jpe?g|svg)$/));
   const imagesPerfectFetch = importAll(require.context('../assets/images/perfectFetch', false, /\.(png|jpe?g|svg)$/));
-  const imagesOdin = importAll(require.context('../assets/images/odin', false, /\.(png|jpe?g|svg)$/));
   const imagesWeather = importAll(require.context('../assets/images/weather', false, /\.(png|jpe?g|svg)$/));
+  const imagesPixelBee = importAll(require.context('../assets/images/pixelBee', false, /\.(png|jpe?g|svg)$/));
 
 const projectDetails = [
+    {
+        title: 'Dr. Hoops Sports Spread',
+        url: 'https://github.com/ColbPeyton/sports_spread',
+        urlFull: 'https://drhoops.net/#/', 
+        cardImage: imagesDrHoops[0],
+        imageGallery: [
+            imagesDrHoops[1],
+            imagesDrHoops[2],
+            imagesDrHoops[3],
+            imagesDrHoops[4],
+            imagesDrHoops[5],
+            imagesDrHoops[6],
+            imagesDrHoops[7],
+            imagesDrHoops[8],
+            imagesDrHoops[9],
+            imagesDrHoops[10],
+            imagesDrHoops[11],
+                    ]
+    },
+    {
+        title: 'Pixel Bee E-Commerce',
+        url: 'https://github.com/ColbPeyton/practice_ecommerce',
+        urlFull: 'https://unruffled-ptolemy-7b3a78.netlify.app/#/', 
+        cardImage: imagesPixelBee[0],
+        imageGallery: [
+            imagesPixelBee[1],
+            imagesPixelBee[2],
+            imagesPixelBee[3],
+            imagesPixelBee[4],
+            imagesPixelBee[5],
+            imagesPixelBee[6],
+            imagesPixelBee[7],
+            imagesPixelBee[8],
+            imagesPixelBee[9],
+            imagesPixelBee[10],
+            imagesPixelBee[11],
+            imagesPixelBee[12],
+            imagesPixelBee[13],
+            imagesPixelBee[14],
+            imagesPixelBee[15],
+            imagesPixelBee[16],
+            imagesPixelBee[17],
+            imagesPixelBee[18],
+            imagesPixelBee[19],
+            imagesPixelBee[20],
+            imagesPixelBee[21],
+            imagesPixelBee[22],
+            imagesPixelBee[23],
+            imagesPixelBee[24],
+            imagesPixelBee[25],
+            imagesPixelBee[26],
+                    ]
+    },
     {
         title: 'TheFactory',
         url: 'https://github.com/ColbPeyton/practice_business',
@@ -75,16 +129,6 @@ const projectDetails = [
                     ]
     },
     {
-        title: 'LineTracker',
-        url: 'https://github.com/jonathon-evans/CSC424-Project',
-        urlFull: '',
-        cardImage: imagesLineTracker[0],
-        imageGallery: [
-            imagesLineTracker[1],
-            imagesLineTracker[2]
-                    ]
-    },
-    {
         title: 'Odin Weather',
         url: 'https://github.com/ColbPeyton/odin_weather',
         urlFull: '',
@@ -96,16 +140,7 @@ const projectDetails = [
             imagesWeather[4],
                     ]
     },
-    {
-        title: 'Odin\'s',
-        url: 'https://github.com/ColbPeyton/odin_restaurant',
-        urlFull: '',
-        cardImage: imagesOdin[0],
-        imageGallery: [
-            imagesOdin[1],
-            imagesOdin[2],
-                    ]
-    },
+
 
 ];
 
