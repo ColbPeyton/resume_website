@@ -160,7 +160,7 @@
 }
 
 
-@media screen and (min-width: 481px) and (max-width:749px){
+@media screen and (min-width: 600px) and (max-width:749px){
  
     #projects{
         height: 110vh;
@@ -208,7 +208,7 @@
     
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:599px){
     #projects{
         height: 125vh;
         padding-bottom: 0;
