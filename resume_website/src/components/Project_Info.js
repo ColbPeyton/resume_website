@@ -11,7 +11,7 @@ function ProjectInfo(props){
     const style ={
         backgroundImage: "url(" +  props.project.image + ")",
         backgroundPosition: 'center',
-        backgroundSize: 'cover',
+        backgroundSize: 'cover', 
         backgroundRepeat: 'no-repeat',
         overflow: 'hidden'
         }
