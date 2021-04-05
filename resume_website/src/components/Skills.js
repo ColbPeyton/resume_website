@@ -1,7 +1,6 @@
 import React from 'react';
-import ProgressBar from './Progress_Bar';
 import {SkillBar} from './SkillBar.tsx';
-import '../styles/Skills.css'
+import '../styles/Skills.scss'
 
 function Skills(){
     return(
@@ -14,16 +13,28 @@ function Skills(){
             </div>
             <div className='skills-bar'>
                 <SkillBar title={'JavaScript'} color={'#03BFF8'}/>
-                <SkillBar title={'TypeScript'} color={'#0390F8'}/>
-                <SkillBar title={'React JS'} color={'#6C60FA'}/>
-                <SkillBar title={'Python'} color={'#BF60FA'}/>
-                <SkillBar title={'Node.js'} color={'#DC60FA'}/>
-                <SkillBar title={'C#'} color={'#03BFF8'}/>
-                <SkillBar title={'HTML/CSS'} color={'#FA60EE'}/>
-                <SkillBar title={'SASS'} color={'#ff33ee'}/>
-                <SkillBar title={'Redux'} color={'#db1dcb'}/>
-                <SkillBar title={'Git'} color={'#03BFF8'}/>
-                <SkillBar title={'MySQL'} color={'#0390F8'}/>
+
+                <SkillBar title={'TypeScript'} color={'#FA60EE'}/>
+
+                <SkillBar title={'React JS'} color={'#0390F8'}/>
+
+                <SkillBar title={'Python'} color={'#DC60FA'}/>
+
+                <SkillBar title={'Node.js'} color={'#6C60FA'}/>
+
+                <SkillBar title={'C#'} color={'#BF60FA'}/>
+
+                <SkillBar title={'HTML/CSS'} color={'#BF60FA'}/>
+
+                <SkillBar title={'SASS'} color={'#6C60FA'}/>
+
+                <SkillBar title={'Redux'} color={'#DC60FA'}/>
+
+                <SkillBar title={'Express'} color={'#0390F8'}/>
+
+                <SkillBar title={'Git'} color={'#FA60EE'}/>
+
+                <SkillBar title={'MySQL'} color={'#03BFF8'}/>
             </div>
         </div>
     )
@@ -41,3 +52,4 @@ export default Skills;
 <ProgressBar barDetail={{title: 'Node JS', color: '#FA60EE', height: '8'}} />
 <ProgressBar barDetail={{title: 'C#', color: '#ff33ee', height: '6'}} />
 <ProgressBar barDetail={{title: 'MySQL', color: '#db1dcb', height: '7'}} /> */}
+

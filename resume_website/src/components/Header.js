@@ -18,7 +18,7 @@ function Header(){
                     </div>
                     <div className='header-info'>
                         <p>
-                        I'm a Front End Web Developer with a passion for problem solving. 
+                        I'm a Web Developer with a passion for problem solving. 
                         Scroll to learn more and see what I'm working on.
                         </p>
                     </div>

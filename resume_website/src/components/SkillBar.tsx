@@ -8,6 +8,8 @@ interface SkillBarProps{
 
 export const SkillBar = (props: SkillBarProps):JSX.Element => {
     return(
-        <p>{props.title}</p>
+        <div className='container-bar' style={{backgroundColor: props.color}}>
+            <p id='bar-title'>{props.title}</p>
+        </div>
     )
 }
