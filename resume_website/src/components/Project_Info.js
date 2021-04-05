@@ -7,9 +7,8 @@ import '../styles/Project_Info.css'
 function ProjectInfo(props){
 
     const [overlay, setOverlay] = useState(false);
-
     const style ={
-        backgroundImage: "url(" +  props.project.image + ")",
+        backgroundImage: "url(" +  props.project.image.default + ")",
         backgroundPosition: 'center',
         backgroundSize: 'cover', 
         backgroundRepeat: 'no-repeat',

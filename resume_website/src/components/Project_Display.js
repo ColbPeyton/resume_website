@@ -18,7 +18,7 @@ function ProjectDisplay(props){
 
     function renderCurrentImage(){
         return(
-            <img src={props.project.imageGallery[props.pos]} alt={props.project.title}/>
+            <img src={props.project.imageGallery[props.pos].default} alt={props.project.title}/>
         )
     }
 

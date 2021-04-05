@@ -5,7 +5,6 @@ function importAll(r) {
   const imagesBreakingBad = importAll(require.context('../assets/images/breakingBad', false, /\.(png|jpe?g|svg)$/));
   const imagesFactory = importAll(require.context('../assets/images/factory', false, /\.(png|jpe?g|svg)$/));
   const imagesDrHoops = importAll(require.context('../assets/images/drHoops', false, /\.(png|jpe?g|svg)$/));
-  const imagesLineTracker = importAll(require.context('../assets/images/linetracker', false, /\.(png|jpe?g|svg)$/));
   const imagesPerfectFetch = importAll(require.context('../assets/images/perfectFetch', false, /\.(png|jpe?g|svg)$/));
   const imagesWeather = importAll(require.context('../assets/images/weather', false, /\.(png|jpe?g|svg)$/));
   const imagesPixelBee = importAll(require.context('../assets/images/pixelBee', false, /\.(png|jpe?g|svg)$/));
