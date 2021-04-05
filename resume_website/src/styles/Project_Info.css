@@ -127,7 +127,7 @@
     
 }
 
-@media screen and (min-width: 481px) and (max-width:550px){
+@media screen and (min-width: 600px) and (max-width:550px){
 
     .project-info .project-overlay p{
         font-size: 1rem;
@@ -135,7 +135,7 @@
     
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:599px){
 
     .project-info .project-overlay:hover{
         background-color: transparent;
