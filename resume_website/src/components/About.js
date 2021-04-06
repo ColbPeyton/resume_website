@@ -1,7 +1,7 @@
 import React from 'react';
 import Timeline from './Timeline';
 import Skills from './Skills';
-import '../styles/About.css';
+import '../styles/About.scss';
 function About(){
     return(
         <div id='about'>
