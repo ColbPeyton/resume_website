@@ -11,25 +11,6 @@ function importAll(r) {
 
 const projectDetails = [
     {
-        title: 'Dr. Hoops Sports Spread',
-        url: 'https://github.com/ColbPeyton/sports_spread',
-        urlFull: 'https://drhoops.net/#/', 
-        cardImage: imagesDrHoops[0],
-        imageGallery: [
-            imagesDrHoops[1],
-            imagesDrHoops[2],
-            imagesDrHoops[3],
-            imagesDrHoops[4],
-            imagesDrHoops[5],
-            imagesDrHoops[6],
-            imagesDrHoops[7],
-            imagesDrHoops[8],
-            imagesDrHoops[9],
-            imagesDrHoops[10],
-            imagesDrHoops[11],
-                    ]
-    },
-    {
         title: 'Pixel Bee E-Commerce',
         url: 'https://github.com/ColbPeyton/practice_ecommerce',
         urlFull: 'https://unruffled-ptolemy-7b3a78.netlify.app/#/', 
@@ -95,6 +76,25 @@ const projectDetails = [
             imagesFactory[24],
             imagesFactory[25],
             imagesFactory[26],
+                    ]
+    },
+    {
+        title: 'Dr. Hoops Sports Spread',
+        url: 'https://github.com/ColbPeyton/sports_spread',
+        urlFull: '', 
+        cardImage: imagesDrHoops[0],
+        imageGallery: [
+            imagesDrHoops[1],
+            imagesDrHoops[2],
+            imagesDrHoops[3],
+            imagesDrHoops[4],
+            imagesDrHoops[5],
+            imagesDrHoops[6],
+            imagesDrHoops[7],
+            imagesDrHoops[8],
+            imagesDrHoops[9],
+            imagesDrHoops[10],
+            imagesDrHoops[11],
                     ]
     },
     {
