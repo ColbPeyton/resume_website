@@ -5,7 +5,7 @@ import sliderIcon from '../assets/icons/tune-24px.svg';
 import gitIcon from '../assets/icons/git.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import '../styles/Navbar.css';
+import '../styles/Navbar.scss';
 
 function Navbar(){
     return(
