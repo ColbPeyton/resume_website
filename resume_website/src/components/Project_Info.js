@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import gitIcon from '../assets/icons/git.svg';
 import earthIcon from '../assets/icons/earth.svg';
-import '../styles/Project_Info.css'
+import '../styles/Project_Info.scss'
 
 
 function ProjectInfo(props){
