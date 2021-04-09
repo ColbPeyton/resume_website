@@ -2,7 +2,7 @@ import React from 'react';
 import arrow from '../assets/icons/keyboard_arrow_right-24px.svg';
 import gitIcon from '../assets/icons/git.svg';
 import earthIcon from '../assets/icons/earth.svg';
-import '../styles/Project_Display.css';
+import '../styles/Project_Display.scss';
 
 
 
