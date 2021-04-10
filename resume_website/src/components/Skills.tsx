@@ -1,8 +1,8 @@
 import React from 'react';
-import {SkillBar} from './SkillBar.tsx';
+import {SkillBar} from './SkillBar';
 import '../styles/Skills.scss'
 
-function Skills(){
+export const Skills = ():JSX.Element =>{
     return(
         <div id='skills'>
             <div className='skills-title'> 
@@ -40,4 +40,3 @@ function Skills(){
     )
 }
 
-export default Skills;

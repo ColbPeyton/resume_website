@@ -1,6 +1,6 @@
 import React from 'react';
 import Timeline from './Timeline';
-import Skills from './Skills';
+import {Skills} from './Skills';
 import '../styles/About.scss';
 
 export const About = ():JSX.Element => {
