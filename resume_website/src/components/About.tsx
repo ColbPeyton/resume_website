@@ -2,7 +2,8 @@ import React from 'react';
 import Timeline from './Timeline';
 import Skills from './Skills';
 import '../styles/About.scss';
-function About(){
+
+export const About = ():JSX.Element => {
     return(
         <div id='about'>
             <div className='about-container'>
@@ -20,5 +21,3 @@ function About(){
         </div>
     )
 }
-
-export default About;
