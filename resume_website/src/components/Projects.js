@@ -3,7 +3,7 @@ import ProjectInfo from './Project_Info';
 import ProjectDisplay from './Project_Display';
 import ProjectDetails from './Project_Details';
 
-import '../styles/Projects.css'
+import '../styles/Projects.scss'
 // import projectDetails from './Project_Details';
 
 function Projects(props){
