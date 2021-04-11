@@ -2,7 +2,7 @@ import React from 'react';
 import profile from '../assets/images/profile_img.jpg';
 import '../styles/Footer.css';
 
-function Footer(){
+export const Footer = ():JSX.Element =>{
     return(
         <footer id='footer'>
             <div className='footer-container'>
@@ -31,5 +31,3 @@ function Footer(){
         </footer>
     )
 }
-
-export default Footer;
