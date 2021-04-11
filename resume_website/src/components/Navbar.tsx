@@ -3,11 +3,11 @@ import emailIcon from '../assets/icons/email.svg';
 import contactIcon from '../assets/icons/contact.svg';
 import sliderIcon from '../assets/icons/tune-24px.svg';
 import gitIcon from '../assets/icons/git.svg';
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import '../styles/Navbar.scss';
 
-function Navbar(){
+export const Navbar = ():JSX.Element => {
     return(
         <nav id='nav' className='sticky'>
            <AnchorLink href='#header'>
@@ -27,4 +27,3 @@ function Navbar(){
     )
 }
 
-export default Navbar;
