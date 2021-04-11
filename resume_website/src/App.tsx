@@ -1,17 +1,17 @@
 import React,{useState, useEffect} from 'react';
-import {Header} from './components/Header.tsx';
-import {Navbar} from './components/Navbar.tsx';
-import {About} from './components/About.tsx';
+import {Header} from './components/Header';
+import {Navbar} from './components/Navbar';
+import {About} from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
 
 import './styles/App.css';
 
-function App() {
+export const App = ():JSX.Element => {
 
-  const [width, setWidth] = useState(window.innerWidth);
-  const [height, setHeight] = useState(window.innerHeight);
+  const [width, setWidth] = useState<number>(window.innerWidth);
+  const [height, setHeight] = useState<number>(window.innerHeight);
 
    // Header will change based on size of screen, detect change in width
    useEffect(()=>{
@@ -38,5 +38,3 @@ function updateWidthHeight(){
     </div>
   );
 }
-
-export default App;
