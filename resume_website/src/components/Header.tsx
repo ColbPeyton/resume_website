@@ -4,7 +4,7 @@ import downArrow from '../assets/icons/keyboard_arrow_right-24px.svg';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import '../styles/Header.css';
 
-function Header(){
+export const Header = ():JSX.Element => {
     return(
         <header id='header'>
             <div className='header-container'>
@@ -30,5 +30,3 @@ function Header(){
         </header>
     )
 }
-
-export default Header;

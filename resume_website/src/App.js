@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react';
-import Header from './components/Header';
+import {Header} from './components/Header.tsx';
 import {Navbar} from './components/Navbar.tsx';
 import {About} from './components/About.tsx';
 import Projects from './components/Projects';
