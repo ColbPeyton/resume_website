@@ -1,7 +1,19 @@
 import React from 'react';
 import '../styles/Timeline_Info.css';
 
-function TimelineInfo(props){
+interface TimelineInfoProps{
+    timeline:{
+        icon: string;
+        title1: string;
+        title2: string;
+        text1: string;
+        text2: string;
+        date1: string;
+        date2: string;
+    }
+}
+
+export function TimelineInfo(props:TimelineInfoProps){
     return(
         <div className='timeline-info'>
             <div className='info-icon'>
@@ -11,14 +23,12 @@ function TimelineInfo(props){
                 <ul>
                     <li>
                         <h4>{props.timeline.title1}</h4>
-                        {/* <h5>{props.timeline.subtitle1}</h5> */}
                         <p>{props.timeline.text1}</p>
                         <p>{props.timeline.date1}</p>
                     </li>
                         
                     <li>
                         <h4>{props.timeline.title2}</h4>
-                        {/* <h5>{props.timeline.subtitle2}</h5> */}
                         <p>{props.timeline.text2}</p>
                         <p>{props.timeline.date2}</p>
                     </li>
@@ -28,4 +38,3 @@ function TimelineInfo(props){
     )
 }
 
-export default TimelineInfo;

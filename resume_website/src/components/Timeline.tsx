@@ -1,5 +1,5 @@
 import React from 'react';
-import TimelineInfo from './TimeLine_Info';
+import {TimelineInfo} from './TimeLine_Info';
 import school from '../assets/icons/school.svg';
 import work from '../assets/icons/work.svg';
 import '../styles/Timeline.css';
@@ -12,9 +12,7 @@ export const Timeline = ():JSX.Element => {
                     timeline={{
                         icon: school,
                         title1: 'B.S. I.T. Development',
-                        subtitle1: 'Minor In Computer Science',
                         title2: 'B.A. Political Science',
-                        subtitle2: 'Minor In History',
                         text1: 'The University of Southern Mississippi',
                         text2: 'The University of Southern Mississippi',
                         date1:'2017-2020',
