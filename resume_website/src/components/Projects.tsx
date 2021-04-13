@@ -1,19 +1,34 @@
-import React,{useState} from 'react';
+import React,{Props, useState} from 'react';
 import ProjectInfo from './Project_Info';
-import {ProjectDisplay} from './Project_Display.tsx';
+import {ProjectDisplay} from './Project_Display';
 import ProjectDetails from './Project_Details';
 
 import '../styles/Projects.scss'
 // import projectDetails from './Project_Details';
 
-function Projects(props){
+
+interface ProjectProps{
+    width:number;
+    height:number;
+}
+
+interface Project{
+        title: string;
+        url: string;
+        urlFull: string;
+        cardImage: any;
+        imageGallery: any[];
+}
+
+export const Projects = (props:ProjectProps):JSX.Element =>{
 
 
-    const [currentProject, setCurrentProject] = useState(ProjectDetails[0]);
-    const [currentPos, setcurrentPos] = useState(0);
+    const [currentProject, setCurrentProject] = useState<Project>(ProjectDetails[0]);
+
+    const [currentPos, setcurrentPos] = useState<number>(0);
 
     // project display is disabled on smaller screens, open project's github link
-    function changeClickBasedOnResolution(ProjectDetails){
+    function changeClickBasedOnResolution(ProjectDetails:Project){
         if(props.width < 480 || window.screen.height < 450){
             // window.open(`${ProjectDetails.url}`);
         }
@@ -21,7 +36,7 @@ function Projects(props){
         setCurrentProject(ProjectDetails);
     }
 
-    function updatePosition(pos, imageAmount){
+    function updatePosition(pos:number, imageAmount:[Project]){
         if(pos > imageAmount.length - 1){
             setcurrentPos(0)
         }else if(pos < 0){
@@ -69,5 +84,3 @@ function Projects(props){
         </div>
     )
 }
-
-export default Projects;
