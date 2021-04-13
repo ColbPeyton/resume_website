@@ -6,11 +6,22 @@ import '../styles/Project_Display.scss';
 
 
 
+interface ProjectDisplayProps{
+    project: {
+        title: string;
+        url: string;
+        urlFull: string;
+        cardImage: any;
+        imageGallery: any[];
+    }
+    updatePosition: (pos: any, imageAmount: any) => void;
+    pos: number;
+}
 
-function ProjectDisplay(props){
+export const ProjectDisplay = (props:ProjectDisplayProps):JSX.Element =>{
 
 
-    function updateParentState(direction){
+    function updateParentState(direction:number){
         let temp = props.pos;
         temp += direction;
         props.updatePosition(temp, props.project.imageGallery)
@@ -40,5 +51,3 @@ function ProjectDisplay(props){
         </div>
     )
 }
-
-export default ProjectDisplay;
