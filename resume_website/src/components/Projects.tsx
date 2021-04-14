@@ -1,5 +1,5 @@
 import React,{Props, useState} from 'react';
-import ProjectInfo from './Project_Info';
+import {ProjectInfo} from './Project_Info';
 import {ProjectDisplay} from './Project_Display';
 import ProjectDetails from './Project_Details';
 

@@ -4,9 +4,20 @@ import earthIcon from '../assets/icons/earth.svg';
 import '../styles/Project_Info.scss'
 
 
-function ProjectInfo(props){
+interface ProjectInfoProps{
+    height:number;
+    width:number;
+    project: {
+        title: string;
+        image: any;
+        url: string;
+        urlFull: string;
+    }
+}
 
-    const [overlay, setOverlay] = useState(false);
+export const ProjectInfo = (props:ProjectInfoProps):JSX.Element =>{
+
+    const [overlay, setOverlay] = useState<Boolean>(false);
     const style ={
         backgroundImage: "url(" +  props.project.image.default + ")",
         backgroundPosition: 'center',
@@ -58,8 +69,6 @@ function ProjectInfo(props){
         </div>
     )
 }
-
-export default ProjectInfo;
 
 
 // style={{background:`url(${props.project.image}) no-repeat 0 0 /cover`}}
