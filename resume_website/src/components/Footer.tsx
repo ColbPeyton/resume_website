@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../assets/images/profile_img.jpg';
+import profile from '../assets/images/profile.jpg';
 import '../styles/Footer.css';
 
 export const Footer = ():JSX.Element =>{

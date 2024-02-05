@@ -68,10 +68,10 @@ export const Projects = (props:ProjectProps):JSX.Element =>{
                     <div className='project' onClick={()=> changeClickBasedOnResolution(ProjectDetails[4])}>
                         <ProjectInfo width={props.width} height={props.height} project={{title: ProjectDetails[4].title, image: ProjectDetails[4].cardImage, url:ProjectDetails[4].url , urlFull:ProjectDetails[4].urlFull}} />
                     </div>
-                    <div className='project' onClick={()=> changeClickBasedOnResolution(ProjectDetails[5])}>
+                    {/* <div className='project' onClick={()=> changeClickBasedOnResolution(ProjectDetails[5])}>
                         <ProjectInfo width={props.width} height={props.height} project={{title: ProjectDetails[5].title, image: ProjectDetails[5].cardImage, url:ProjectDetails[5].url , urlFull:ProjectDetails[5].urlFull}} />
                     </div>
-  
+   */}
                 </div>
                 <div className='project-display'>
                     <ProjectDisplay 

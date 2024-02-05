@@ -24,12 +24,12 @@ export const Timeline = ():JSX.Element => {
                 <TimelineInfo 
                         timeline={{
                             icon: work,
-                            title1: 'Application Manager',
-                            title2: 'Best Buy',
-                            text1: 'The University of Southern Mississippi',
-                            text2: 'Hattiesburg, Mississippi',
-                            date1:'2017-2020',
-                            date2: '2011-2016'
+                            title1: 'Full Stack Engineer',
+                            title2: 'Application Administrator',
+                            text1: 'SchoolStatus',
+                            text2: 'The University of Southern Mississippi',
+                            date1:'2021-PRESENT',
+                            date2: '2018-2020'
                         }}
                     />
             </div>

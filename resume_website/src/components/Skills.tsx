@@ -14,27 +14,27 @@ export const Skills = ():JSX.Element =>{
             <div className='skills-bar'>
                 <SkillBar title={'JavaScript'} color={'#03BFF8'}/>
 
-                <SkillBar title={'TypeScript'} color={'#FA60EE'}/>
+                <SkillBar title={'Ruby'} color={'#FA60EE'}/>
 
-                <SkillBar title={'React JS'} color={'#0390F8'}/>
+                <SkillBar title={'React'} color={'#0390F8'}/>
 
-                <SkillBar title={'Python'} color={'#DC60FA'}/>
+                <SkillBar title={'Rails'} color={'#DC60FA'}/>
 
-                <SkillBar title={'Node.js'} color={'#6C60FA'}/>
+                <SkillBar title={'Git'} color={'#6C60FA'}/>
 
-                <SkillBar title={'C#'} color={'#BF60FA'}/>
+                <SkillBar title={'GraphQL'} color={'#BF60FA'}/>
 
-                <SkillBar title={'HTML/CSS'} color={'#BF60FA'}/>
+                <SkillBar title={'Context'} color={'#BF60FA'}/>
 
-                <SkillBar title={'SASS'} color={'#6C60FA'}/>
+                <SkillBar title={'MySQL'} color={'#6C60FA'}/>
 
-                <SkillBar title={'Redux'} color={'#DC60FA'}/>
+                <SkillBar title={'TypeScript'} color={'#DC60FA'}/>
 
-                <SkillBar title={'Express'} color={'#0390F8'}/>
+                <SkillBar title={'HTML'} color={'#0390F8'}/>
 
-                <SkillBar title={'Git'} color={'#FA60EE'}/>
+                <SkillBar title={'CSS'} color={'#FA60EE'}/>
 
-                <SkillBar title={'MySQL'} color={'#03BFF8'}/>
+                <SkillBar title={'SASS'} color={'#03BFF8'}/>
             </div>
         </div>
     )
